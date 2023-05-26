@@ -1,0 +1,43 @@
+ .container{
+    border-style: solid;
+    border-color: black;
+    width: 1140px;
+    margin: 0 auto;
+    padding-right: 100px;
+    padding-left:100px;
+    padding-top:20px; }
+    
+    h1{
+        text-align: center;
+        color: rgb(216, 142, 44); 
+    }
+ 
+p {
+    display: inline;
+    /* font-weight: bold; */
+    font-size: 30px;
+}
+.example{ 
+    font-weight: bold;
+    font-size: 30px;
+}
+pre {
+    font-size:30px; 
+}
+xmp{
+    display: inline;
+    font-weight: bold;
+    font-size: 30px;
+}
+span{
+    font-size: 20px;
+    font-weight: lighter;
+}
+tt{
+    font-size: 20px; 
+}
+.word { font-size: 3em; }
+   wbr { display: inline-block; }
+   h2 {
+    text-align: center;
+   }
