@@ -48,3 +48,7 @@ address{
 blockquote{
     display: inline;
 }
+
+.Text{
+    font-size: 15px;
+}
