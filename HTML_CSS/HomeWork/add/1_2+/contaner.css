@@ -41,3 +41,10 @@ tt{
    h2 {
     text-align: center;
    }
+   
+address{
+    display: inline;
+}
+blockquote{
+    display: inline;
+}
