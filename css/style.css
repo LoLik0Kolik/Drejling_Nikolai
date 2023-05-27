@@ -96,3 +96,6 @@ span{
 a{
     color:white;
 }
+p{
+    display: inline;
+}
