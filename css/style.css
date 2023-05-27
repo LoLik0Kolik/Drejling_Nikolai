@@ -49,9 +49,8 @@ h3 {
     border-radius: 30px;
     
 }
-a h2{
-    color:black;
-}
+
+
 .homeWork_div h2{
     text-align: center;
 }
@@ -98,4 +97,18 @@ a{
 }
 p{
     display: inline;
+}
+.homeWork_Main{
+    width: 113px;
+    height: 30px;
+  padding:3px;
+    margin: 20px auto;
+    background-color:black;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 11px;
+    align-items: center;
+   text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
