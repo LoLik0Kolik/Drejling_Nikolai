@@ -27,7 +27,7 @@ header nav{
 }
 section.homeWork {
     min-height: 1000px;
-    background-image: url('../img/1674277765_catherineasquithgallery-com-p-neitralnii-serii-fon-v-fotoshope-foto-2.jpg');
+    background: url('../img/1674277765_catherineasquithgallery-com-p-neitralnii-serii-fon-v-fotoshope-foto-2.jpg')center center/cover no-repeat;
     
 }
 h1, h3{
@@ -116,9 +116,8 @@ p{
 .clear{
     padding-top: 40px;
     min-height: 400px;
-    background-image: url('/img/123.png')
+    background: url('/img/123.png') center center/cover no-repeat; 
 }
 .clear h2{
     text-align: center;
-    align-items: center;
 }
