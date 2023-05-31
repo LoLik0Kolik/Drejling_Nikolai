@@ -140,3 +140,60 @@ nav {
     font-weight: 400;
     text-transform: uppercase;
 }
+.advantages{
+    min-height: 850px;
+}
+.advantages .advantages_block{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.advantages .reasons{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 38px;
+    color: #222222;
+}
+.reasons_block_main{
+    display: flex;
+    align-items: center;
+    }
+
+.reasons_block{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 35px;
+}
+.round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    border-radius:100%;
+    background: #1EACC7;
+}
+
+.reasons_text{
+    margin-left: 25px ;
+    width: 371px;
+    
+}
+.reasons_text .title{
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
