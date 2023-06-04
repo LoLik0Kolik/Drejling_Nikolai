@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div  class="block"> <font color="#BruceWillis">I'm BruceWillis</font></div>
+    <div  class="block"><font color="#CANDY">CANDY</font></div>
+    <hr>
+    <div style="width:500px; font-size:25px; text-align:center; margin: 0 auto;" class="container">В общем целом, в свойстве color атрибута font мы говорим про HEX-формат, который подразумевает шестнадцатиричную систему счисления. В этой системе подразумевается использования цифр от 0 до 9, а также латинские буквы от A до F. Если мы выходим за пределы данного "алфавита", то любой знак принимает значение, равное 0, но все символы еще должны делиться на 3, и в случае если оно не делится, нужно "добить" количество знаков до делимого на 3.  <br> <br>
+        Вот и получаем, что #BruceWillis =>
+        #B00ce0000000, затем это разбивается на три группы, каждый из которых является 1 из компонентов RGB(B00c,e000,0000), и обрезаем каждый из аргуементов справа на 2 символа. Получаем: #B0e000 (зеленый цвет)
+        Тоже самое происходит и с #CANDY => #CA0D00 => RGB(CA,0D,00) > #CA0D00 (Красный)</div>
+</body>
+</html>
