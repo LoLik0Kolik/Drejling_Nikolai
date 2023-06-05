@@ -143,7 +143,7 @@ nav {
 .advantages{
     min-height: 850px;
 }
-.advantages .advantages_block{
+.advantages .label{
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 32px;
