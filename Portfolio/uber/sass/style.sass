@@ -1,3 +1,11 @@
+@mixin white_title
+	font-style: normal
+	font-weight: 700
+	font-size: 38px
+	line-height: 48px
+	text-align: center
+	text-transform: uppercase
+	color: #FFFFFF
 * 
 	font-family: 'Roboto', sans-serif 
 header 
@@ -209,4 +217,47 @@ nav
 			margin: 0 auto
 			border-radius: 100%
 			cursor: pointer
-			
+.choice_block_1
+	padding-top:57px
+	min-height: 502px
+	background-color: black
+	& .white_title
+		@include white_title
+	& .white_subtitle
+		font-style: normal
+		font-weight: 400
+		font-size: 17px
+		text-align: center
+		color: #FFFFFF
+		
+.choice_block_2
+	
+	background: url('../img/Подложка.png') center (center / cover) no-repeat
+	padding: 210px 0 137px 0
+	& .description_choice
+		font-weight: 300
+		font-size: 17px
+		line-height: 24px
+		text-align: center
+		color: #222222
+.white_block
+	margin: 0 auto 
+	margin-bottom: 26px 
+	width: 115px 
+	height: 27px 
+	background: white
+	font-weight: 400 
+	font-size: 11px 
+	text-align: center 
+	line-height: 25px 
+	text-transform: uppercase 
+	color: black
+.choice
+	position: relative
+.car
+	display: block
+	position: absolute
+	top: 234px
+	right: 580px
+	left: 580px
+	bottom: 184px
