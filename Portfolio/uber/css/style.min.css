@@ -345,11 +345,12 @@ nav {
   position: relative;
 }
 
-.car {
+.car_block {
   display: block;
   position: absolute;
   top: 234px;
-  right: 580px;
-  left: 580px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   bottom: 184px;
 }/*# sourceMappingURL=style.min.css.map */
