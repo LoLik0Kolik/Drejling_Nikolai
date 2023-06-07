@@ -1,3 +1,12 @@
+$main-color: #1eacc7
+$second-color: #ff5656
+
+@mixin btn_hover
+	&:hover
+		background-image: none
+		background-color: $main-color
+
+	
 @mixin white_title
 	font-style: normal
 	font-weight: 700
@@ -23,12 +32,12 @@ nav
 	padding: 13px 70px 
 	margin: 0 
 	list-style-type: none 
-	.menu_link 
+	&_link 
 		color: #ffffff 
 		font-size: 15px 
 		font-weight: 300 
 		text-decoration: none 
-	.menu_item 
+	&_item 
 		border-right: 2px dotted black 
 		padding-right: 28px 
 .subheader 
@@ -37,23 +46,23 @@ nav
 	width: 100% 
 	height: 84px 
 	background-color: rgba(0,0,0, .6) 
-	.subheader_logo 
+	&_logo 
 		display: block 
 		max-width: 100% 
 		margin-top: 16px 
-	.subheader_official 
+	&_official 
 		margin-top: 6px 
 		opacity: 0.5 
 		color: #ffffff 
 		font-size: 13px 
 		font-weight: 400 
-	.subheader_call 
+	&_call 
 		color: #ffffff 
 		font-size: 12px 
 		font-weight: 300 
 		margin-top: 19px 
 		text-align: right 
-	.subheader_phone 
+	&_phone 
 		display: block 
 		margin-top: 8px 
 		color: #ffffff 
@@ -63,7 +72,7 @@ nav
 		text-align: right 
 		line-height: 12px 
 		text-decoration: none 
-	.subheader_btn 
+	&_btn 
 		margin-top: 19px 
 		width: 172px 
 		height: 46px 
@@ -77,11 +86,12 @@ nav
 		font-weight: 400 
 		text-transform: uppercase 
 		cursor: pointer
+		@include btn_hover
 .promo 
 	min-height: 800px 
 	background: url('../img/uber_bg.png') center center/cover no-repeat 
 	padding: 150px 0 135px 0 
-	.promo_header 
+	&_header 
 		color: #ffffff 
 		font-weight: 700 
 		text-transform: uppercase 
@@ -89,7 +99,7 @@ nav
 		line-height: 60px 
 		margin: 0 
 		text-align: center 
-	.promo_subheader 
+	&_subheader 
 		color: #ffffff 
 		font-weight: 700 
 		text-transform: uppercase 
@@ -98,14 +108,14 @@ nav
 		margin: 0 
 		margin-top: 22px 
 		text-align: center 
-	.promo_descr 
+	&_descr 
 		color: #ffffff 
 		font-size: 18px 
 		font-weight: 400 
 		line-height: 24px 
 		text-align: center 
 		margin-top: 23px 
-	.promo_btn 
+	&_btn 
 		display: block 
 		margin: 118px auto 0 auto 
 		width: 259px 
@@ -120,6 +130,7 @@ nav
 		font-weight: 400 
 		text-transform: uppercase 
 		cursor: pointer
+		@include btn_hover
 .advantages 
 	min-height: 850px 
 .label 
@@ -217,6 +228,29 @@ nav
 			margin: 0 auto
 			border-radius: 100%
 			cursor: pointer
+			&:before
+				content: ''
+				display: block
+				width: 14px
+				height: 2px
+				background-color: $main-color
+				transition: 0.3s all
+			&:after 
+				content: ''
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				display: block
+				height: 14px
+				width: 2px
+				background-color: $main-color
+				transition: 0.3s all
+			&:hover
+				&:after, &:before
+					background-color: $second-color
+
+
+				
 .choice_block_1
 	padding-top:57px
 	min-height: 502px
@@ -261,3 +295,45 @@ nav
 	left: 50%
 	transform: translateX(-50%)
 	bottom: 184px
+.require 
+	padding: 68px 0 84px 0 
+	&_block
+		margin: 33px 0
+		&_nbm
+			margin-bottom: 0px
+	&_title
+		font-weight: 400
+		font-size: 22px
+		color: #1ca8c3
+	&_list
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 22px
+		li 	
+			position: relative
+			font-weight: 300
+			font-size: 17px
+			line-height: 24px
+			color: #222222
+			margin-bottom: 10px
+			&:before 
+				content:''
+				display: block
+				position: absolute
+				left: -32px 
+				top: 3px
+				width: 21px 
+				height: 20px 
+				background: url('../icons/choice/rectangle.png') center (center / cover) no-repeat
+	&_descr
+		font-weight: 300
+		font-size: 17px
+		line-height: 24px
+		color: #1CA8C3
+	.warning
+		.require_title
+			color: $second-color
+		.require_list
+			li
+				&:before
+					background: url('../icons/choice/Layer 31 copy 7.png')
