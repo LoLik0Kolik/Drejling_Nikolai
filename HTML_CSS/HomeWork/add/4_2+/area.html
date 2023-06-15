@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area</title>
+</head>
+<body>
+  <p><xmp style="display: inline;">  <Area></Area></xmp>  определяет активные области изображения, которые являются ссылками. Рисунок с привязанными к нему активными областями называется в совокупности картой-изображением. Такая карта по внешнему виду ничем не отличается от обычного изображения, но при этом оно может быть разбито на невидимые зоны разной формы, где каждая из областей служит ссылкой. Тег <area> задает форму области, ее размеры, устанавливает адрес документа, на который следует сделать ссылку, а также имя окна или фрейма, куда браузер будет загружать документ. Этот тег всегда располагается в контейнере <mark>"map" </mark>, который связывает координаты областей с изображением. </p> 
+    <p style="font-size: 25px;">Тег Area поддерживает такие атрибуты как 
+        <ul>
+            <li>accesskey(Переход к области с помощью комбинации клавиш.)</li>
+            <li>alt(Альтернативный текст)</li>
+            <li><mark> coords(Координаты активной области)</mark></li>
+            <li><mark>  href(Задает адрес документа, на который следует перейти)</mark></li>
+            <li>hreflang(Указывает язык документа, на который ведет ссылка)</li>
+            <li>nohref(Область без ссылки на другой документ)</li>
+            <li>shape(Форма области)</li>
+            <li>tabindex(Задает последовательность перехода между элементами с помощью клавиши Tab)</li>
+            <li>target(Имя окна или фрейма, куда браузер будет загружать документ)</li>
+            <li>type(Устанавливает MIME-тип документа, на который ведёт ссылка)</li>
+        </ul>
+        <img src="Maps.jpg" usemap="#kits" alt="">
+        <map name="kits">
+            <area shape="rect" coords="25,25,520,300" href="http://htmlbook.ru/html/area" alt="#">
+            <area shape="rect" coords="" href="http://htmlbook.ru/html/area" alt="#">
+            <area shape="rect" coords="" href="http://htmlbook.ru/html/area" alt="#">
+            <area shape="rect" coords="" href="http://htmlbook.ru/html/area" alt="#">
+
+
+        </map>
+</body>
+</html>
