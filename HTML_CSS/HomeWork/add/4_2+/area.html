@@ -7,7 +7,7 @@
 </head>
 <body>
   <p><xmp style="display: inline;">  <Area></Area></xmp>  определяет активные области изображения, которые являются ссылками. Рисунок с привязанными к нему активными областями называется в совокупности картой-изображением. Такая карта по внешнему виду ничем не отличается от обычного изображения, но при этом оно может быть разбито на невидимые зоны разной формы, где каждая из областей служит ссылкой. Тег <area> задает форму области, ее размеры, устанавливает адрес документа, на который следует сделать ссылку, а также имя окна или фрейма, куда браузер будет загружать документ. Этот тег всегда располагается в контейнере <mark>"map" </mark>, который связывает координаты областей с изображением. </p> 
-    <p style="font-size: 25px;">Тег Area поддерживает такие атрибуты как 
+    <p style="font-size: 25px;">Тег <mark> Area </mark>поддерживает такие атрибуты как:
         <ul>
             <li>accesskey(Переход к области с помощью комбинации клавиш.)</li>
             <li>alt(Альтернативный текст)</li>
@@ -22,10 +22,10 @@
         </ul>
         <img src="Maps.jpg" usemap="#kits" alt="">
         <map name="kits">
-            <area shape="rect" coords="25,25,520,300" href="http://htmlbook.ru/html/area" alt="#">
-            <area shape="rect" coords="" href="http://htmlbook.ru/html/area" alt="#">
-            <area shape="rect" coords="" href="http://htmlbook.ru/html/area" alt="#">
-            <area shape="rect" coords="" href="http://htmlbook.ru/html/area" alt="#">
+            <area target="_blank" shape="rect" coords="25,25,520,300" href="http://htmlbook.ru/html/area" alt="#">
+            <area target="_blank" shape="rect" coords="25,400,520,600" href="https://web.telegram.org/k/#@Rubidii" alt="#">
+            <area target="_blank" shape="rect" coords="550,25,1100,300" href="https://docs.google.com/spreadsheets/d/1VrUEmG2yWQbNcDB-YcyzrhHneQiVGVtpve8Cl11FAvY/edit#gid=98198607" alt="#">
+            <area target="_blank" shape="rect" coords="550,400,1100,600" href="https://getbootstrap.com/docs/5.3/layout/grid/" alt="#">
 
 
         </map>
