@@ -1,5 +1,8 @@
-*{
+*{  box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0 auto;
+    
 }
 header{
     height: 50px;
@@ -27,7 +30,7 @@ header nav{
 }
 section.homeWork {
     min-height: 1000px;
-    background-image: url('../img/1674277765_catherineasquithgallery-com-p-neitralnii-serii-fon-v-fotoshope-foto-2.jpg');
+    background: url('../img/1674277765_catherineasquithgallery-com-p-neitralnii-serii-fon-v-fotoshope-foto-2.jpg') center no-repeat; 
     
 }
 h1, h3{
@@ -64,24 +67,8 @@ h3 {
     color:white;
     text-decoration: none;
 }   
-.footer{
-    
-    height: 80px;
-    background-color: rgb(92, 92, 92);
-}
-.footer_item a img{
-    padding: 13px;
-    width: 50px;
-    height: 50px;
-}
-.footer_item{
-    display: flex;
-    justify-content: flex-end;
-}
-address{
-    padding: 30px;
-    color: white;
-}
+
+
 span{
     font-size: 20px;
     text-decoration: none;
@@ -95,19 +82,18 @@ p{
 .homeWork_Main{
     width: 113px;
     height: 30px;
-  padding:3px;
+    padding:3px;
     margin: 20px auto;
     background-color:black;
     font-weight: 400;
     font-size: 8px;
-    line-height: 11px;
+    line-height: 24px;
     align-items: center;
    text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 .memes{
-    margin: 30px 0 0 0;
     display: block;
     margin: 0 auto;
     width: 300px;
