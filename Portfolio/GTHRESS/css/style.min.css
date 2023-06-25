@@ -2,10 +2,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 auto;
-}
-
-header {
-  width: 1920px;
+  padding: 0;
 }
 
 a.link_header {
@@ -69,11 +66,11 @@ a.link_header {
   float: right;
 }
 
-section.company_main {
+.company_main {
   padding: 39px 0 179px 0;
   min-height: 853px;
-  width: 1920px;
-  background: url("../img/BG.jpg") center no-repeat;
+  width: 1903px;
+  background: url("../img/BG.jpg") no-repeat;
   background-position-y: 136px;
 }
 
