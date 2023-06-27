@@ -70,7 +70,7 @@ a.link_header {
   padding: 39px 0 179px 0;
   min-height: 853px;
   width: 1903px;
-  background: url("../img/BG.jpg") no-repeat;
+  background: url("../img/BG.jpg") center/cover no-repeat;
   background-position-y: 136px;
 }
 

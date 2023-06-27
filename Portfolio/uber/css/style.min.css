@@ -39,6 +39,9 @@ nav {
   border-right: 2px dotted black;
   padding-right: 28px;
 }
+.menu_item:last-child {
+  border-right: none;
+}
 
 .subheader {
   position: absolute;
@@ -597,4 +600,24 @@ footer a:hover {
 
 .xs-visible {
   display: none;
+}
+
+@media (max-width: 1200px) {
+  .menu_item {
+    padding-right: 20px;
+  }
+  .menu_link {
+    font-size: 13px;
+  }
+  .promo_header {
+    font-size: 50px;
+  }
+  .reasons_block {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .reasons_text {
+    width: 300px;
+  }
 }/*# sourceMappingURL=style.min.css.map */
