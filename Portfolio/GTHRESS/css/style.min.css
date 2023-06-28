@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
 }
@@ -87,6 +87,7 @@ h2.subheader {
   line-height: 140%;
   text-transform: uppercase;
 }
+
 h2.subheader_exp {
   margin-left: 84px;
   margin-top: 14px;
@@ -119,9 +120,11 @@ h3.subheader_company {
   line-height: 140%;
   margin-top: 30px;
 }
+
 .company_descr .link_consultation {
   margin-top: 30px;
 }
+
 .company_descr .link_consultation a {
   color: #FFF;
 }
@@ -130,37 +133,43 @@ h3.subheader_company {
   height: 576px;
   padding: 140px 0px 120px 0;
 }
+
 .achievements_title {
   font-weight: 400;
   color: #003B77;
   font-size: 52px;
   font-family: Montserrat;
 }
+
 .achievements_block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
+
 .achievements_block_element {
   width: 349px;
   height: 163px;
   margin: 80px 0 0 0;
 }
+
 .achievements_block_element p {
   font-size: 22px;
   font-family: Montserrat;
   font-weight: 500;
   line-height: 140%;
 }
+
 .achievements_block_element_line {
   margin: 18px 0;
   width: 288px;
   height: 1px;
   background: #D1D5DB;
 }
+
 .achievements_block_element_numbers {
   float: left;
   font-size: 80px;
@@ -168,6 +177,7 @@ h3.subheader_company {
   font-weight: 500;
   color: #003B77;
 }
+
 .achievements_block_element_numbers_units {
   font-size: 55px;
   font-family: Montserrat;
@@ -179,12 +189,14 @@ h3.subheader_company {
   min-height: 1119px;
   padding: 0 0 138px 0;
 }
+
 .company_more_title {
   font-weight: 400;
   font-size: 52px;
   font-family: Montserrat;
   color: #003B77;
 }
+
 .company_more_description {
   margin: 40px 0 60px 369px;
   width: 1087px;
@@ -192,16 +204,17 @@ h3.subheader_company {
   font-family: Montserrat;
   line-height: 140%;
 }
+
 .company_more_link_block {
   margin-top: 40px;
 }
+
 .company_more_link {
   font-size: 18px;
   font-family: Montserrat;
   font-weight: 500;
   line-height: 140%;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   text-transform: uppercase;
 }
 
@@ -211,6 +224,7 @@ h3.subheader_company {
   background-position-y: 98px;
   padding: 0 232px 204px;
 }
+
 .services_title {
   margin-top: 34px;
   font-size: 52px;
@@ -218,6 +232,7 @@ h3.subheader_company {
   color: #fff;
   font-weight: 300;
 }
+
 .services_descr {
   width: 1087px;
   height: 68px;
@@ -229,45 +244,272 @@ h3.subheader_company {
   font-weight: 200;
   line-height: 140%;
 }
+
 .services_descr_all_link {
   float: right;
   margin-top: 40px;
 }
+
 .services_descr_all_link a {
   float: right;
   font-size: 18px;
   font-family: Montserrat;
   font-weight: 300;
   line-height: 140%;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   text-transform: uppercase;
   color: #fff;
 }
+
 .services_block {
   margin-top: 233px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
+
 .services_block_image_first {
+  float: left;
+  margin-right: 20px;
+  padding: 268px 26px 50px 30px;
   background: url("../img/Rectangle.jpg");
   width: 472px;
   height: 349px;
   border-radius: 2%;
 }
+
+.services_block_image_first p {
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: #fff;
+}
+
 .services_block_image_two {
-  background: url("../img/Auto2.jpg");
+  float: left;
+  margin-right: 20px;
+  padding: 268px 26px 50px 30px;
+  background: url("../img/Image.jpg");
   width: 472px;
   height: 349px;
   border-radius: 2%;
 }
+
+.services_block_image_two p {
+  color: #fff;
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
 .services_block_image_three {
-  background: url("../img/Train.jpg");
+  float: left;
+  padding: 268px 26px 50px 30px;
+  background: url("../img/Rectangle-1.jpg");
   width: 472px;
   height: 349px;
   border-radius: 2%;
-}/*# sourceMappingURL=style.min.css.map */
+}
+
+.services_block_image_three p {
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: #fff;
+}
+
+.why {
+  min-height: 1157px;
+}
+
+.why img {
+  margin-top: 20px;
+  margin-left: 96px;
+}
+
+.why h2 {
+  margin-top: 140px;
+  font-weight: 400;
+  color: #003B77;
+  font-size: 52px;
+  font-family: Montserrat;
+  line-height: 140%;
+}
+
+.why_block_first {
+  margin: 60px 20px 200px 360px;
+  float: left;
+}
+
+.why_block_first p {
+  color: #fff;
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.why_block_first_childern {
+  padding-top: 40px;
+  padding-left: 40px;
+  background: var(--card-color, linear-gradient(135deg, #09325B 0%, rgba(69, 99, 233, 0.3) 100%), #09325B);
+  width: 472px;
+  height: 472px;
+}
+
+.why_block_first_childern_two {
+  padding-top: 40px;
+  padding-left: 40px;
+  width: 472px;
+  height: 472px;
+  margin-top: 20px;
+  background: var(--card-color, linear-gradient(135deg, #09325B 0%, rgba(69, 99, 233, 0.3) 100%), #09325B);
+}
+
+.why_block_two {
+  margin: 120px 123px 140px 0px;
+  float: left;
+}
+
+.why_block_two p {
+  color: #fff;
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.why_block_two_childern {
+  padding-top: 40px;
+  padding-left: 40px;
+  background: var(--card-color, linear-gradient(135deg, #09325B 0%, rgba(69, 99, 233, 0.3) 100%), #09325B);
+  width: 472px;
+  height: 472px;
+}
+
+.why_block_two_childern_two {
+  padding-top: 40px;
+  padding-left: 40px;
+  width: 472px;
+  height: 472px;
+  margin-top: 20px;
+  background: var(--card-color, linear-gradient(135deg, #09325B 0%, rgba(69, 99, 233, 0.3) 100%), #09325B);
+}
+
+span.digital {
+  margin-top: 233px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 80px;
+  font-family: Montserrat;
+}
+
+.partners {
+  min-height: 1061px;
+}
+
+.partners h2 {
+  margin-top: 140px;
+  font-weight: 400;
+  color: #003B77;
+  font-size: 52px;
+  font-family: Montserrat;
+  line-height: 140%;
+}
+
+.descr_block {
+  height: 102px;
+  width: 1086px;
+  float: left;
+  margin: 40px 0 60px 369px;
+}
+
+.descr_block p {
+  color: black;
+  font-size: 24px;
+  font-family: Montserrat;
+  line-height: 140%;
+}
+
+.partners ul li {
+  color: #6B7280;
+  font-size: 18px;
+  margin-right: 45px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 140%;
+  display: inline;
+  list-style-type: none;
+}
+
+.partners ul li.last_list {
+  margin: 0;
+}
+
+.partners_block_main {
+  margin-top: 40px;
+}
+
+.partners_block_main .parrents_one {
+  margin-bottom: 20px;
+}
+
+.partners_block_main .parrents_one .first_child {
+  float: left;
+  width: 710px;
+  height: 349px;
+  background: url('../img/BG1_P.jpg') center no-repeat;
+  margin-right: 20px;
+}
+
+.partners_block_main .parrents_one .two_child {
+  float: left;
+  width: 349px;
+  height: 349px;
+  background: url('../img/BG2P.png') center no-repeat;
+  margin-right: 20px;
+  background-color: #F3F3F3;
+}
+
+.partners_block_main .parrents_one .three_child {
+  float: left;
+  width: 349px;
+  height: 349px;
+  background: url('../img/BG3P.png') center no-repeat;
+  background-color: #F3F3F3;
+}
+
+.partners_block_main .parrents_two .first_child {
+  float: left;
+  margin-right: 20px;
+  width: 349px;
+  height: 349px;
+  background: url('../img/BG4P.png') center no-repeat;
+  background-color: #F3F3F3;
+}
+
+.partners_block_main .parrents_two .two_child {
+  margin-right: 20px;
+  float: left;
+  width: 710px;
+  height: 349px;
+  background: url('../img/BG5P.png') center no-repeat;
+  background-color: #F3F3F3;
+}
+
+.partners_block_main .parrents_two .three_child {
+  background-color: #9F9;
+  width: 349px;
+  height: 349px;
+  padding: 294px 30px 30px 106px;
+  float: left;
+
+
+}
+
+.partners_block_main .parrents_two .three_child a {
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.clear{
+  clear:both;
+}
