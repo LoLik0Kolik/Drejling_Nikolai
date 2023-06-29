@@ -510,6 +510,238 @@ span.digital {
   text-decoration-line: underline;
   text-transform: uppercase;
 }
-.clear{
-  clear:both;
+
+.clear {
+  clear: both;
+}
+
+section.news {
+  margin-top: 140px;
+  padding: 140px 0;
+  min-height: 988px;
+  background: url('../img/BG2.jpg') center no-repeat;
+}
+
+h2.news_title {
+
+  margin-bottom: 60px;
+  font-size: 52px;
+  font-family: Montserrat;
+  color: #fff;
+  font-weight: 400;
+}
+
+.questions {
+  float: left;
+  margin: 0 58px 40px 0;
+  width: 660px;
+  min-height: 510px;
+}
+
+.questions li {
+  margin-top: 34px;
+  list-style-type: none;
+  width: 660px;
+  height: 102px;
+  font-weight: 300;
+  font-size: 24px;
+  font-family: Montserrat;
+  line-height: 140%;
+  color: #fff;
+  border-bottom: 1px #fff solid;
+}
+
+.questions li.first_list {
+  margin: 0;
+}
+
+.questions img {
+  float: right;
+}
+
+.news .block_img {
+  float: left;
+}
+
+.questions li.last_list a {
+  float: left;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: 140%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+
+.questions li.last_list {
+  border: none;
+}
+
+.questions li.last_list img {
+  float: none;
+}
+
+section.question {
+  margin: 140px 0;
+  min-height: 759px;
+}
+
+h2.question_title {
+  font-weight: 400;
+  font-size: 52px;
+  font-family: Montserrat;
+  color: #003B77;
+}
+
+footer.signal {
+  background: url('../img/BG2.jpg') center no-repeat ;
+
+  min-height: 868px;
+  padding: 140px 0 37px 0;
+}
+
+
+h2.signal_title {
+
+  font-weight: 400;
+  font-size: 52px;
+  font-family: Montserrat;
+  color: #fff;
+}
+
+.signal .subtitle {
+  float: left;
+  margin-top: 60px;
+  width: 590px;
+  height: 150px;
+}
+
+.signal .subtitle p {
+  font-weight: 300;
+  font-size: 36px;
+  font-family: Montserrat;
+  line-height: 140%;
+  color: #fff
+}
+
+span.signal_span {
+  color: #99FF99
+}
+
+.questionnaire {
+  margin-left: 148px;
+  width: 718px;
+  height: 222px;
+  float: left;
+}
+.questionnaire li{
+  
+  padding-bottom: 10px;
+  margin-right: 20px;
+  margin-bottom: 63px;
+  display: inline-block;
+  width: 336px;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: Montserrat;
+  color:#B3BCCC;
+  border-bottom:#B3BCCC solid 1px; 
+}
+.questionnaire li.last_list{
+  width: 698px;
+}
+.signal .send{
+  float: right;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 140%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  
+}
+.signal .send a{
+  color:#fff;
+  font-weight: 400;
+}
+.wrapper{
+  height: 322px;
+}
+.contact{
+  padding-bottom: 34px;
+  height: 100px;
+  margin-top: 202px;
+  border-bottom:#fff solid 1px;
+}
+span.email{
+  font-weight: 300;
+  font-size: 18px;
+  font-family: Montserrat;
+  line-height: 140%;
+  color:#9F9
+}
+.email{
+  margin-top: 8px;
+  width: 222px;
+  float: left;
+  font-size: 24px;
+  font-family: Montserrat;
+  line-height: 140%;
+  color:#fff;
+  font-weight: 300;
+}
+
+.phone{
+  display: block;
+  text-align: center;
+  width: 309px;
+  font-size: 29px;
+  font-family: Montserrat;
+  color:#D1D5DB;
+  
+
+}
+span.phone{
+  display: inline;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Montserrat;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color:#fff;
+  
+}
+.email_sales{
+  margin-top: 8px;
+  text-align: right;
+  color:#fff;
+  font-size: 24px;
+  font-family: Montserrat;
+  line-height: 140%;
+  width: 351px;
+  float: right;
+}
+span.email_sales{
+  text-align: right;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: Montserrat;
+  line-height: 140%;
+  color:#9F9
+}
+.contact .clear{
+  clear: both;
+}
+.phone p{
+  margin-top: 14px;
+}
+p.p_s{
+  margin-top: 42px;
+  font-size: 18px;
+  font-family: Open Sans;
+  line-height: 140%;
+  color:#fff;
+  font-weight: 400;
 }
