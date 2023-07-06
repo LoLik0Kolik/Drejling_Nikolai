@@ -1,57 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.wrapper{
-    width: 1300px; 
-    margin: 0 auto;
-}
-.title_header{
-    padding:20px; 
-    height:50px; 
-    background-color:rgb(179, 209, 248);
-    color: blue; 
-    text-align: center; 
-    text-transform: uppercase; 
-    font-weight: bold; 
-    font-size: 25px;
-}
-.background{
-    overflow:hidden;
-    background: url('Background.png') repeat-y;
-}
-.clear{
-    clear: both;
-}
-.title_main{
-    overflow:hidden ;
-    padding: 15px; 
-    float: left; 
-    min-height: 30px;
-}
-.background_ball{
-    overflow:hidden ; 
-    background:url('bool\ копия.png') right top repeat-y ; 
-    text-align: center;
-}
-.title_img{
-    float:left;
-     padding: 0 20px 20px 20px
-}
-.footer{
-    padding:20px; 
-    font-size: 15px; 
-    height:50px; 
-    background-color:rgb(179, 209, 248);  
-    color: blue; 
-    text-align: center; 
-    text-transform: uppercase;
-}
-@media (min-width:200px) and (max-width:327px)
-{
-    .h2_title{
-        color:red;
+@media(max-width:326px) {
+    .header_block{
+        width: 53%;
+        margin: 0 auto;
     }
-      
+    .central_block{
+        margin: 0 auto;
+        width: 40%;
+    }
 }
