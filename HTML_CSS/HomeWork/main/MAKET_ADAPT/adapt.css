@@ -1,0 +1,10 @@
+@media(max-width:326px) {
+    .header_block{
+        width: 53%;
+        margin: 0 auto;
+    }
+    .central_block{
+        margin: 0 auto;
+        width: 40%;
+    }
+}
