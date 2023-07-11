@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .descr{
+        font-size: 30px;
+        margin: 0 auto; 
+        width: 600px;
+        min-height: 100px;
+    }
+    .mark{
+        display: inline;
+        color:red; 
+    }
+    li{
+        font-size: 20px;
+    }
+    .cat{
+       text-align: center;  
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .cat_block{
+        border: solid red 2px;
+        text-align: center;
+        width: 100%;
+        min-height: 400px;}
+    
+ 
+    
+</style>
+<body>
+    <div class="descr">
+        При создании адаптивного дизайна, могут возникнуть проблемы с картинками. Если нам надо использовать картинку, то у нее уже есть собственные "height" и "width", допустим 700 на 700 px. При изменении разрешения экрана, ширина будет либо расширяться, либо сжиматься. Это проблема, ибо у большинства изображений уже есть базовая ширина, которую нельзя никак изменять. Решение предлагает тег <div class="mark">"picture"</div>. <br>
+        <div class="mark">"Picture"</div>   это новый элемент, который является частью HTML5. С помощью <div class="mark">"Picture"</div> можно заменять изображения на другие, более подходящие для конкретного устройства  (в зависимости от результатов media-выражений и плотности пикселей). 
+        Основные шаги при работе с <div class="mark">"Picture"</div>:
+        <ol>
+            <li>Создайте открывающий и закрывающий теги <div class="mark">"Picture"</div> </li>
+            <li>Внутри создайте <div class="mark">"Source"</div>элемент для каждого выражения, что хотите обработать. </li>
+            <li>Добавьте атрибут <div class="mark">media</div>, содержащий выражения для таких вещей как высота и ширина области просмотра, ориентация и т.д.</li>
+            <li>Добавьте атрибут <div class="mark">srcset</div> с соответствующим именем файла изображения для загрузки.</li>
+            <li>Добавьте дополнительные имена файлов к атрибуту srcset, если нужно поддерживать разную плотность пикселей, например для Retina дисплеев.</li>
+            <li>Добавьте резервный (fallback) элемент <img>.</li>
+            <li>Атрибут <div class="mark"> type </div> позволяет вам обозначить MIME-тип данных, указанных в атрибуте srcset элемента <div class="mark">"source"</div>. Если браузер не поддерживает данный тип, то элемент "source" опускается.</div></li>
+        </ol>
+    </div>
+                                      <div class="cat">Пример(При экране до 768px идет замена картинки):</div>
+ <div class="cat_block">                                  
+<picture>
+    <source srcset="1.jpg" media="(max-width:768px)">
+    <source srcset="2.jpg">
+    <img srcset="2.jpg" alt="#">
+</picture></div>   
+<div class="descr">
+
+</body>
+</html>
