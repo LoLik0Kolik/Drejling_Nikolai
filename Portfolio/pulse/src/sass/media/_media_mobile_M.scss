@@ -1,0 +1,27 @@
+@media(max-width:375px) {
+    
+
+.promo{
+    background-position:-780px;
+    &__icons{
+    width: 100%;}
+    &__icon{
+        width: 60px;}
+    &__header{
+        font-size: 25px;
+    }
+    &__subheader{
+        font-size: 16px ;
+        font-weight: 300;
+    }
+    &__wrapper{
+        margin-top: 70px;}  
+}
+    .advantages{
+    &__wrapper{
+        margin-top: 30px;}
+    &__icon{
+        margin-top: 20px;
+    }
+    }
+}

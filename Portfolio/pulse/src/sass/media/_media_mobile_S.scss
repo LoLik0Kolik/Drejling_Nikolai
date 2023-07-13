@@ -1,0 +1,33 @@
+@media(max-width:320px){
+    .header{
+    a
+        {width: 230px;}
+    &__official{
+        font-size: 25px;
+    }
+    &__contacts{
+        a{
+        font-size: 18px;}
+}
+}
+.promo__header{
+    font-weight: 500;
+    font-size: 20px;
+}
+.promo__subheader{
+    font-size: 13px;
+}
+}
+.advantages{
+    padding: 50px;
+}
+.promo__wrapper{
+    margin-top: 50px;
+}
+.promo__icons{
+    margin-top: 30px;
+}
+.promo__icon{
+    font-weight: 500;
+    font-size: 12px;
+}

@@ -1,0 +1,42 @@
+@media(max-width:767px){
+    .promo{
+        background-position: -299px;
+    }
+    .header{
+        flex-direction: column;
+        &__logo{
+            margin:20px 0;
+            width: 350px;
+        }
+        &__official{
+            font-size: 40px;
+        }
+        &__contacts
+             a{
+                font-size: 30px;
+            font-weight: 500;} 
+            button{
+                
+                margin-top: 20px;
+                width: 275px;
+                height:40px ;
+                font-size: 20px;
+            }
+    }
+    .promo__header{
+        font-size: 37px;
+    }
+    .promo__subheader{
+        font-size: 21px;
+    }
+    .promo__wrapper{
+        align-items:center;
+    }
+
+    .advantages{
+        h2{
+            text-align: center;
+        }
+    }
+}
+    
