@@ -24,4 +24,19 @@
         margin-top: 20px;
     }
     }
+    .consultation{
+        
+        padding: 35px;
+        & h2.title_left{
+            font-size: 18px;
+            text-align: center;
+        }
+        &__descr{
+			font-size: 16px;
+            text-align: center;
+        }
+        & form.feed-form{
+            margin: 30px auto;
+        }
+    }
 }

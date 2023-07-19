@@ -17,9 +17,15 @@
 .promo__subheader{
     font-size: 13px;
 }
-}
+
 .advantages{
     padding: 50px;
+    &__subtitle{
+        font-size: 23px;}
+    &__descr{
+        font-size: 19px;
+    }
+    
 }
 .promo__wrapper{
     margin-top: 50px;
@@ -30,4 +36,36 @@
 .promo__icon{
     font-weight: 500;
     font-size: 12px;
+}
+.consultation{
+    min-height: 350px;
+    padding: 35px;
+    & h2.title_left{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    &__descr{
+        display: none;
+    }
+    & form.feed-form{
+        width: 250px;
+        margin: 30px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
