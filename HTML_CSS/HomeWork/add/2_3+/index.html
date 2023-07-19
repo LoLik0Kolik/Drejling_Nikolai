@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+
+
+    .container_child{
+        position: relative;
+         width: 800px; 
+         height:1000px;
+         
+         
+    }
+    .up{
+        top: 0;
+        position: absolute;z-index:2;
+        transition: 0.5s;
+         
+    }
+    .two{
+        position: absolute;z-index:1;
+    }
+    .down{
+        position: absolute; z-index:3
+    }
+    .container_child:hover .up {
+        
+        top: 182px;
+        
+    }
+    
+</style>
+
 <body>
-    <div class="container">
-        <img style="position: absolute;z-index:2; margin:180px 10px"src="img/1.png" alt="">
-    <img style="position: absolute;z-index:1" src="img/2.png" alt="">
-    <img style="position: absolute; z-index:3" src="img/3.png" alt="">
-    </div>
+    
+    
+        <div class="container_child " >
+            <img class="up" src="img/1.png" alt="">
+            <img class="two" src="img/2.png" alt="">
+            <img  class="down" src="img/3.png" alt="">
+        </div>
+    
 </body>
+
 </html>

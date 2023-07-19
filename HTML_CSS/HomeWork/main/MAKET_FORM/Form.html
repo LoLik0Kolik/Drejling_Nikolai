@@ -7,82 +7,80 @@
     <title>Document</title>
 </head>
 <style>
-    body{
-        margin: 0;
-        padding: 0;
+    .wrapper_name{
+        display: flex;
+        justify-content: start;
     }
-    form{
-        padding: 25px;
-        border: solid 2px red;
+    .left_name{
+        display: inline-block;
     }
-    .wrapper{
+    .right_name{
+        display: inline-block;
+        margin-left: 60px;
+        width: 50%;
+    }
+    .right_name>input{
         width: 100%;
     }
-    .first{
-        margin: 15px 0;
+    .wrapper_option{
+        margin-top: 2px;
+        display: flex;
+        justify-content: flex-start;
     }
-    .two{
-        margin: 15px 0;
+    .right_option{
+        width:30%;
+        margin-left: 116px;
     }
-    .three{
-        margin: 15px 0;
+    .right_option>select{
+        width: 100%;
     }
-    .right{
-        
-        display: inline-block;
-        margin-left: 170px;
+    .wrapper_radio{
+        margin-top: 2px;
+        display: flex;
+        justify-content: start;
     }
-    .right_rubr{
-        display: inline-block;
-        margin-left: 227px;
-         
-
+    .right_radio{
+        margin-left: 83px;
     }
-    .right_publ{
-        display: inline-block;
-        margin-left: 200 px;
+    .wrapper_comments{
+        display: flex;
+        justify-content: start;
+    }
+    textarea{
+        width:70%
     }
 </style>
 <body>
     <form action="https://fe.it-academy.by/TestForm.php">
-    <p>Для публикации вашей статья заполните, пожалуйста, следующую форму:</p>
-    <div class="wrapper">
-        <div class="first">
-            <label for="">Название статьи:</label>
-            <div class="right">
-                <input type="text"> 
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <div class="wrapper_name">
+            <div class="left_name"><label for="name">Название статьи:</label></div><div class="right_name"><input name="name" type="text"></div>
+        </div>
+        <div class="wrapper_option">
+        <div class="left_option"><label for="comp">Рубрика:</label></div> <div class="right_option">
+            <select name="comp">
+            <option value="Computer">Компьтерная техника</option>
+            <option value="Design">Графика и дизайн</option>
+            <option value="Programms">Программирование</option>
+         </select></div>
+        </div>
+        <div class="wrapper_radio">
+            <div class="left_radio"><label for="Radio">Публикация:</label></div>    
+            <div class="right_radio">
+               <label><input type="radio" name="Radio" value="1">на сайте</label>
+               <label><input type="radio" name="Radio" value="2">в журнале</label>
+               <label><input type="radio" name="Radio" value="3">на сайте и в журнале</label>
             </div>
-        </div>
-        
-
-
-
-
-
-        <div class="two"><label for="programms">Рубрика:</label>
-            
-            <div class="right_rubr">
-            <select name="programms" id="">
-
-            <option value="">Компьютерная техника</option>
-            <option value="">Графика и дизайн</option>
-            <option value="">Программирование</option></div>
-
-
-        </select></div>
-
-
-
-
-        <div class="three">
-            <label for="">Публикация:</label>
-            <div class="right_publ">
-            <input type="radio"> на сайте
-            <input type="radio"> в журнале 
-            <input type="radio"> на сайте и в журнале </div>  
-        </div>
-        <div class="four">Разрешить комментарии:<input type="checkbox"></div>
-        <div class="five"><label for="">Текст статьи</label><textarea name="" id="" cols="30" rows="10"></textarea></div>
-    </div></form>
+         </div>
+         <div class="wrapper_comments">
+            <div class="left_comments"><label for="comms">Разрешить комментарии:</label></div>
+            <div class="right_comments"><input type="checkbox" name="comms"></div>
+         </div>
+         <div class="wrapper_area">
+            <label for="area">Текст статьи:</label> <br>
+            <textarea name="area" cols="60" rows="5"></textarea>
+         </div>
+         <button type="submit">Опубликовать</button>
+    </form>
 </body>
 </html>
