@@ -1,10 +1,13 @@
 @import 'base/variables';
 @import 'base/mixins';
+@import 'blocks/titles';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
-
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
 
 
 *{
@@ -15,3 +18,7 @@
     max-width: 950px; 
     margin: 0 auto;
 }
+@import 'media/media_tablet';
+@import 'media/media_mobile_L';
+@import 'media/media_mobile_M';
+@import 'media/media_mobile_S';

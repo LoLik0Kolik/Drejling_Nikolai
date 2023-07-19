@@ -1,0 +1,74 @@
+@media(max-width:767px){
+    .promo{
+        background-position: -299px;
+    }
+    .header{
+        flex-direction: column;
+        &__logo{
+            margin:20px 0;
+            width: 350px;
+        }
+        &__official{
+            font-size: 40px;
+        }
+        &__contacts
+             a{
+                font-size: 30px;
+            font-weight: 500;} 
+            button{
+                
+                margin-top: 20px;
+                width: 275px;
+                height:40px ;
+                font-size: 20px;
+            }
+    }
+    .promo__icons{
+        justify-content: center;
+    }
+    .promo__header{
+        text-align: center;
+        font-size: 37px;
+    }
+    .promo__subheader{
+        text-align: center;
+        font-size: 21px;
+    }
+    .promo__wrapper{
+        align-items:center;
+    }
+
+    .advantages{
+        h2{
+            text-align: center;
+        }
+        &__subtitle{
+            font-size: 30px;
+            text-align: center;
+        }
+        &__wrapper
+        {flex-direction: column;}
+        &__descr{
+            font-size: 25px;
+        }
+        
+        &__item{
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    }
+    .consultation{
+        padding: 50px;
+        & h2.title_left{
+            font-size: 25px;
+            text-align: center;
+        }
+        &__descr{
+            text-align: center;
+        }
+        & form.feed-form{
+            margin: 30px auto;
+        }
+    }
+}
+    

@@ -1,0 +1,42 @@
+@media(max-width:375px) {
+    
+
+.promo{
+    background-position:-780px;
+    &__icons{
+    width: 100%;}
+    &__icon{
+        width: 60px;}
+    &__header{
+        font-size: 25px;
+    }
+    &__subheader{
+        font-size: 16px ;
+        font-weight: 300;
+    }
+    &__wrapper{
+        margin-top: 70px;}  
+}
+    .advantages{
+    &__wrapper{
+        margin-top: 30px;}
+    &__icon{
+        margin-top: 20px;
+    }
+    }
+    .consultation{
+        
+        padding: 35px;
+        & h2.title_left{
+            font-size: 18px;
+            text-align: center;
+        }
+        &__descr{
+			font-size: 16px;
+            text-align: center;
+        }
+        & form.feed-form{
+            margin: 30px auto;
+        }
+    }
+}

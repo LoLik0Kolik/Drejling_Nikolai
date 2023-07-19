@@ -26,13 +26,12 @@
         margin-top: 65px;
         width: 425px;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
     &__icon{
         width: 110px;
         text-align: center;
         color: #FFF;
-        text-align: center;
         font-size: 14px;
         font-weight: 400;
         

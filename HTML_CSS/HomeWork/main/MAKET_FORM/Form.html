@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    form{
+        padding: 25px;
+        border: solid 2px red;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .first{
+        margin: 15px 0;
+    }
+    .two{
+        margin: 15px 0;
+    }
+    .three{
+        margin: 15px 0;
+    }
+    .right{
+        
+        display: inline-block;
+        margin-left: 170px;
+    }
+    .right_rubr{
+        display: inline-block;
+        margin-left: 227px;
+         
+
+    }
+    .right_publ{
+        display: inline-block;
+        margin-left: 200 px;
+    }
+</style>
+<body>
+    <form action="https://fe.it-academy.by/TestForm.php">
+    <p>Для публикации вашей статья заполните, пожалуйста, следующую форму:</p>
+    <div class="wrapper">
+        <div class="first">
+            <label for="">Название статьи:</label>
+            <div class="right">
+                <input type="text"> 
+            </div>
+        </div>
+        
+
+
+
+
+
+        <div class="two"><label for="programms">Рубрика:</label>
+            
+            <div class="right_rubr">
+            <select name="programms" id="">
+
+            <option value="">Компьютерная техника</option>
+            <option value="">Графика и дизайн</option>
+            <option value="">Программирование</option></div>
+
+
+        </select></div>
+
+
+
+
+        <div class="three">
+            <label for="">Публикация:</label>
+            <div class="right_publ">
+            <input type="radio"> на сайте
+            <input type="radio"> в журнале 
+            <input type="radio"> на сайте и в журнале </div>  
+        </div>
+        <div class="four">Разрешить комментарии:<input type="checkbox"></div>
+        <div class="five"><label for="">Текст статьи</label><textarea name="" id="" cols="30" rows="10"></textarea></div>
+    </div></form>
+</body>
+</html>
