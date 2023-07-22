@@ -1,0 +1,204 @@
+.container {
+  width: 1236px;
+  margin: 0 auto;
+}
+
+* {
+  font-family: "Circe", sans-serif;
+}
+
+.header {
+  min-height: 180px;
+}
+.header_logo h1 {
+  line-height: 140%;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #EC1B2E;
+  margin-bottom: 0;
+}
+.header_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 20px 0 20px 0;
+}
+.header_contacts {
+  width: 674px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+.header_contacts_first::before {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  content: url("../icons/header/Vector.png");
+  margin-right: 20px;
+  margin-left: 45px;
+}
+.header_contacts_two::before {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  content: url("../icons/header/Vector-1.png");
+  margin-right: 20px;
+  margin-left: 45px;
+}
+.header_contacts_three::before {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  content: url("../icons/header/Vector-2.png");
+  margin-right: 20px;
+  margin-left: 45px;
+}
+.header_contacts ul {
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+.header_contacts ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 3px;
+}
+.header p {
+  display: inline-block;
+  margin-left: 20px;
+}
+.header_button button {
+  padding: 10px 20px;
+  background-color: #EC1B2E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 157px;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+}
+
+.subheader_wrapper {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0px 0 20px 0;
+}
+.subheader_wrapper .list_item_subheader {
+  margin-top: 20px;
+}
+.subheader_wrapper .list_item_subheader ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.subheader_wrapper .list_item_subheader ul li {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.subheader_wrapper .list_item_subheader ul li a {
+  color: black;
+  text-decoration: none;
+}
+.subheader_wrapper .list_item_subheader ul li:first-child {
+  margin-left: 0;
+}
+
+.subheader_logo {
+  width: 60px;
+  height: 60px;
+}
+
+.learning {
+  padding: 128px 0 156px 0;
+  min-height: 720px;
+  background: url("../img/first/Rectangle 31.jpg") center center/cover no-repeat;
+}
+.learning_kit {
+  margin-left: 93px;
+  background: rgba(0, 0, 0, 0.3);
+  width: 526px;
+  height: 280px;
+  padding: 15px 30px;
+}
+.learning_kit p {
+  color: #fff;
+  font-size: 33px;
+  font-weight: 800;
+  line-height: 140%;
+}
+.learning_button {
+  margin-top: 50px;
+  margin-left: 93px;
+}
+.learning_button button {
+  padding: 10px 20px;
+  background-color: #EC1B2E;
+  width: 157px;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+}
+
+.shool {
+  min-height: 746px;
+}
+.shool_lav {
+  margin-top: 191px;
+  width: 638px;
+  height: 405px;
+  border: solid 10px #EC1B2E;
+}
+.shool_lav_title h2 {
+  margin-top: -10px;
+  margin-left: 153px;
+  width: 354px;
+  padding: 0 30px;
+  text-align: center;
+  color: #333;
+  font-size: 48px;
+  font-weight: 800;
+  background-color: #fff;
+}/*# sourceMappingURL=style.min.css.map */
