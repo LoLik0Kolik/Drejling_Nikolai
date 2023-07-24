@@ -1,4 +1,8 @@
 $main-color: #EC1B2E
+$add-color:#333
+
+@import url('stylesheet.css')
+    
 .container
     width: 1236px
     margin: 0 auto
@@ -63,7 +67,7 @@ $main-color: #EC1B2E
         margin-left: 20px
     &_button
         button
-            padding: 10px 20px
+            padding: 10px 26px
             background-color: $main-color
             display: flex
             width: 157px
@@ -91,6 +95,8 @@ $main-color: #EC1B2E
                 a
                     color: black
                     text-decoration: none
+                a:hover
+                    color:$main-color
             li:first-child
                 margin-left: 0                
 .subheader_logo
@@ -99,15 +105,14 @@ $main-color: #EC1B2E
 
 .learning
     padding: 128px 0 156px 0
-    
     min-height: 720px
     background: url('../img/first/Rectangle 31.jpg') center (center/cover) no-repeat
     &_kit
         margin-left: 93px
         background: rgba(0,0, 0,0.3)
-        width: 526px 
+        width: 586px 
         height: 280px
-        padding: 15px 30px
+        padding: 15px 110px 15px 30px
         p
             color: #fff
             font-size: 33px
@@ -129,24 +134,395 @@ $main-color: #EC1B2E
 .shool
     min-height: 746px
     &_lav
+        margin-left: 95px
         margin-top: 191px
+        padding: 76px 80px 66px 80px
         width: 638px
         height: 405px
         border: solid 10px $main-color
-        &_title
-            h2
-                margin-top: -10px
-                margin-left: 153px
-                width: 354px
-                padding: 0 30px
+        float: left
+    &_wrapper_header
+        position: relative
+    &_header
+        left: 150px
+        top: 160px
+        position: absolute
+        background-color: #fff
+        width: 414px
+        height: 87px
+        padding: 10px 30px
+        h2
+            color: #333
+            font-size: 48px
+            font-weight: 800
+    .background
+        width: 400px
+        height: 400px
+        background: url('../img/two/logo.png') center center no-repeat
+        display: inline-block
+        opacity: 0.1
+        margin-left: 103px
+        margin-top: 190px
+.cost
+    min-height: 1050px
+    &_title
+        text-align: center
+        color:$add-color
+        font-size: 48px
+        font-weight: 800
+    &_for
+
+        display: flex
+        justify-content: space-around
+        list-style-type: none
+        margin-top: 52px
+        padding-left: 0px
+    
+        &_block
+            width: 306px
+            height: 96px
+            text-align: center
+            a
+                color:$add-color
+                text-decoration: none
+                font-size: 24px
+                font-weight: 700
+            a:hover
+                color:$main-color
+                translate: 0.2s
+table.cost_table
+    
+    margin: 0 auto
+    th:nth-child(1)
+        width: 180px
+        height: 48px
+    th:nth-child(2)
+        width: 300px
+        height: 48px
+    th:nth-child(3)
+        width: 596px
+        height: 48px
+    th
+        background-color: rgba(51, 51, 51, 0.05)
+        text-align: left
+        padding: 10px 60px 10px 20px
+    tr
+        margin-top: 35px
+        border-bottom: 1px solid rgba(3,3,3,0.2)
+    
+        td:nth-child(1)
+            padding-bottom: 90px
+            width: 180px
+            height: 48px
+        td:nth-child(2)
+            padding-bottom: 45px
+            width: 300px
+            height: 48px
+        td:nth-child(3)
+            padding-top: 35px
+            width: 596px
+            height: 48px
+        td 
+            padding: 10px 20px
+            p
+                span
+                    text-align: center
+                    width: 84px
+                    height: 33px
+                    background-color: $main-color
+                    color:#fff
+                    font-size: 18px
+                    font-weight: 700
+                    padding: 5px 7px 3px 7px
+                    margin-right: 5px
+    tr:nth-child(1)
+        border-bottom: none
+    tr:nth-child(5)
+        border-bottom: none
+    
+.exams
+    min-height: 902px
+    padding: 150px 0 0 0
+    &_title
+        text-align: center
+        color:$add-color
+        font-weight: 800
+        font-size: 48px
+        margin-bottom: 100px
+    &_wrapper
+        display: flex
+        justify-content: space-around
+        &_icon
+            width: 285px
+            min-height: 585px
+        
+            img
+                width:100%
+            h3
+                margin: 30px 20px 20px 20px
                 text-align: center
-                color: #333
-                font-size: 48px
-                font-weight: 800
-                background-color: #fff
+                font-size: 24px
+                font-weight: 700
+                line-height: 140%
+            ul
+                color: $add-color
+                font-size: 16px
+                font-weight: 400
+                line-height: 140%
+                li
+                    margin-top: 20px
+            &_button
+                margin: 0 auto
+                margin-top: 45px
+                width: 163px
+                height: 58px
+                button
+                    background-color: $main-color
+                    color: #fff
+                    font-size: 20px
+                    font-weight: 700
+                    border: none
+                    padding: 15px 30px
+.events
+    padding-top: 150px
+    &_title
+        text-align: center
+        color:$add-color
+        font-weight: 800
+        font-size: 48px
+        margin-bottom: 100px
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        &_icon
+            width: 395px
+            min-height: 585px
+        
+            img
+                width:100%
+            h3
+                margin: 30px 20px 20px 20px
+                text-align: center
+                font-size: 24px
+                font-weight: 700
+                line-height: 140%
+            p
+                color: $add-color
+                font-size: 16px
+                font-weight: 400
+                line-height: 140%
+                margin: 15px 30px 30px 30px
+            &_button
+                margin-top: 45px
+                width: 163px
+                height: 58px
+                button
+                    background-color: $main-color
+                    color: #fff
+                    font-size: 20px
+                    font-weight: 700
+                    border: none
+                    padding: 15px 30px
+.news
+    padding-top: 150px 
+    &_title
+        text-align: center
+        color:$add-color
+        font-weight: 800
+        font-size: 48px
+        margin-bottom: 100px
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        &_icon
+            width: 294px
+            min-height: 585px
+            h3
+                margin-top: 30px
+                text-align: center
+                font-size: 24px
+                font-weight: 700
+                line-height: 140%
+            p
+                color: $add-color
+                font-size: 16px
+                font-weight: 400
+                line-height: 140%
+                margin-top: 15px
+            &_button
+                margin-top: 45px
+                width: 163px
+                height: 58px
+                button
+                    background-color: $main-color
+                    color: #fff
+                    font-size: 20px
+                    font-weight: 700
+                    border: none
+                    padding: 15px 30px
+.footer
+    min-height: 588px
+    padding: 60px 0 25px 0
+    background-color: rgba(3,3,3,0.05)
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        min-height: 458px
+        border-bottom: 1px solid rgba(3,3,3,0.3 )
+        padding-bottom: 60px
+        &_icon:nth-child(1)
+            width: 208px
+            h3
+                color: $add-color
+                font-family: Circe
+                font-size: 14px
+                font-weight: 700
+                text-transform: uppercase
+                margin-bottom: 40px
+            ul
+                display: flex
+                justify-content: space-between
+                flex-direction: column
+                padding-left: 0
+                margin-bottom: 40px
+                
+                li
+                    margin-top: 20px
+                    display: flex
+                    justify-content: flex-start
+                    list-style-type: none
+                li:nth-child(1)::before
+                    content: url('../icons/header/Vector.png')
+                    width: 18px
+                    height: 24px
+                    margin-right: 20px
+                li:nth-child(2)::before
+                    content: url('../icons/header/Vector-1.png')
+                    width: 18px
+                    height: 24px
+                    margin-right: 20px
+                li:nth-child(3)::before
+                    content: url('../icons/header/Vector-2.png')
+                    width: 18px
+                    height: 24px
+                    margin-right: 20px
+        &_icon:nth-child(2)
+            width: 240px
+            h3
+                color: $add-color
+                font-size: 20px
+                font-weight: 700
+                margin-bottom: 25px
+            ul
+                list-style-type: none
+                padding: 0
+                li
+                    margin-top: 15px
+                    a
+                        text-decoration: none
+                        color:$add-color
+                        font-size: 14px
+                        font-weight: 400
+                        line-height: 140%
+                li:nth-child(1)
+                    margin-top: 0px
+        &_icon:nth-child(3)
+            width: 200px
+            h3
+                color:$add-color
+                font-size: 20px
+                font-weight: 700
+                
+            ul
+                list-style-type: none
+                padding: 0
+                li
+                    margin-top: 15px
+                    a
+                        text-decoration: none
+                        color:$add-color
+                        font-size: 14px
+                        font-weight: 400
+                        line-height: 140%
+            .footer_wrapper_icon_learning
+                margin-top: 40px
+        &_icon:nth-child(4)
+            width: 198px
+            h3
+                color:$add-color
+                font-size: 20px
+                font-weight: 700
+                margin-bottom: 25px
+            ul
+                list-style-type: none
+                padding: 0
+                li
+                    margin-top: 15px
+                    a
+                        text-decoration: none
+                        color:$add-color
+                        font-size: 14px
+                        font-weight: 400
+                        line-height: 140%
+                li:nth-child(1)
+                    margin-top: 0px
+        &_icon:nth-child(5)
+            width: 100px
+            h3
+                color:$add-color
+                font-size: 20px
+                font-weight: 700
+                margin-bottom: 25px
+            ul
+                list-style-type: none
+                padding: 0
+                li
+                    margin-top: 15px
+                    a
+                        text-decoration: none
+                        color:$add-color
+                        font-size: 14px
+                        font-weight: 400
+                        line-height: 140%
+                li:nth-child(1)
+                    margin-top: 0px     
+    &_wrapper_socieity
+        width: 180px
+        height: 30px
+        display: flex
+        justify-content: space-between
+        a
+            text-decoration: none
+            color: rgb(30,48,80)
+    h4
+        margin-top: 25px
+        color:$add-color
+        font-size: 14px
+        font-weight: 400
+        opacity: 0.5
+ 
+
+        
+        
+            
+            
+
+            
+        
+
+                
+                
 
 
 
+
+
+            
+
+
+                
+
+         
 
             
             
