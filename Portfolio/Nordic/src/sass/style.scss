@@ -1,0 +1,14 @@
+@import 'blocks/variables';
+@import 'first/header';
+@import 'first/about';
+@import 'first/carousel';
+@import 'first/slider';
+@import 'first/cook';
+*{
+    font-family: 'Lab Grotesque',sans-serif;
+}
+
+.container{
+    padding: 0;
+    width: 1180px;
+}

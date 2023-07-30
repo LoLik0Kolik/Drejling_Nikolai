@@ -1,0 +1,82 @@
+.about{
+    padding: 140px 0;
+    min-height: 917px;
+    &_us{
+        color: #222733;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 0;
+        opacity: 0.8;
+       
+    }
+    &_wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &_block{
+        width: 870px;
+        &_title{
+            color: #222733;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 120%; 
+            margin-bottom: 0;
+            
+        }
+        &_wrapper{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+            div{
+                color: #222733;
+                width: 400px;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 170%; 
+            }
+        }
+    }
+    &_button{
+        margin-top: 60px;
+        width: 280px;
+        height: 60px;
+        padding: 24px 48px;
+        background-color: #222733;
+        border: none;
+        color: #fff;
+        line-height: 40%;
+        font-weight: 500;
+    }
+    &_achievements{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        &_item{
+            &_number{
+                display: flex;
+                
+                color:$main-color;
+                font-size: 48px;
+                font-weight: 500;
+                line-height: 110%;
+                span{
+                    margin-left: 16px;
+                    color: #545E76;
+                    font-size: 40px;
+                    font-weight: 400;
+                    line-height: 110%;
+                }
+                
+            }
+             
+            &_descr{
+                margin-top: 16px;
+                color:$main-color;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 140%;
+            }
+        }
+    }
+    
+}

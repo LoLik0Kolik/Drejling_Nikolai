@@ -1,0 +1,13 @@
+@media(max-width: 1023px){
+    .carousel__inner{
+        width: 50%;
+        .slick-slide{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .catalog__content{
+        justify-content: center;
+    }
+}

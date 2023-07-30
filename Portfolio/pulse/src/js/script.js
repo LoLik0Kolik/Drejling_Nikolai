@@ -6,10 +6,11 @@ $(document).ready(function(){
         responsive:
         [
             {
-                breakpoint: 992,
+                breakpoint: 1024,
                 settings: {
-                dots: true,
-                arrows:false
+                dots: false,
+                arrows:true,
+                autoplay: true
                 }
             }
         ]

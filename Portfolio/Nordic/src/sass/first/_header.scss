@@ -1,0 +1,149 @@
+.Welcome{
+    min-height: 758px;
+    padding: 32px 0;
+    background: url('../img/first_header/BG_header.jpg') center (center/cover) no-repeat;
+    &_title{
+        margin-top: 285px;
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 16px;
+        opacity: 0.8;}
+    &_subtitle{
+        color: #FFF;
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 100%;
+    }
+    &_wrapper{
+        display: flex;
+        justify-content: space-between;
+        .subtitle_wrapper{
+            width: 870px;
+        }
+        .where_to_eat{
+            padding-top: 10px;
+            background: url('../icons/header/Roze1.png') left top no-repeat,
+                        url('../icons/header/Roze2.png') right top no-repeat
+            ;
+            width: 243px;
+            text-align: center;
+            font-weight: 500;
+            color:#fff;
+            font-size: 21px;
+            background-position-y: 12px;
+            
+                img{
+                    height: 50px;
+                }
+                p{
+                    display: inline;
+                    margin: 0;
+                    
+                }
+                
+                span{
+                    text-transform: uppercase;
+                    color:#F31B62;
+                }
+
+        }
+    }
+   &_wrapper_two_row{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    p{
+        margin-top: 10px;
+        margin-bottom: 0;
+        width: 619px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 140%;
+       
+    }
+    button{
+        padding: 24px 48px;
+        width: 280px;
+        height: 60px;
+        color: #222733;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40%;
+        border:none;
+    }
+   }
+
+    }
+
+.welcome__header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 300;}
+    &__container{
+        display: flex;
+        justify-content: flex-start;
+        a{
+            margin-right: 32px;
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 300;
+            text-decoration: none;
+        }
+        .email{
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+    &_two_row{
+        margin-top: 19px;
+        display: flex;
+        justify-content: space-between;
+        h2 a{
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        .dropdown{
+            margin-left: 55px;
+            button{
+                background-color: rgba(0,0,0,0);
+                border: none;
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 400;
+                padding: 0;
+            }
+            ul{
+                background-color: rgba(0,0,0,0);
+                border: none;
+                
+                li:hover{
+                    background-color:rgba(0,0,0,0);
+                    text-decoration: none;
+                    
+                }}}
+        a.services{
+            text-decoration: none;
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 400;
+            margin-left: 40px;
+        }
+        .wrapper_dropdown{
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+
+    }
+    
+}
