@@ -1,4 +1,45 @@
 .cook{
     position: relative;
     min-height: 1172px;
+    padding: 0 0 120px 0;
+    &_wrapper{
+        padding: 20px 0;
+        margin-top: -95px;
+        display: flex;
+        justify-content: space-between;
+        &_img{
+            width: 480px;
+            height: 620px;
+            img{
+                width: 100%;
+                
+            }
+        }
+        &_descr{
+            width: 607px;
+            height: 660px;
+            background: url('../icons/first_cook/Group.png') left top no-repeat;
+            p{
+                margin: 148px 0 120px 0;
+                color: #222733;
+                font-size: 28px;
+                font-weight: 400;
+                line-height: 130%;
+            }
+            &_subtitle{
+                color: #222733;
+                font-size: 18px;
+                font-weight: 300;
+                opacity: 0.8;
+                margin-bottom: 12px;
+            }
+            &_title{
+                color: $main-color;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 130%;
+            }
+        }
+    }
 }

@@ -85,7 +85,14 @@
 	 li{
 		font-size: 10px;
 	}}
-
+.reviews{
+	&_wrapper_item_img{
+		display: none;
+	 }
+	 &_wrapper_item_descr{
+		margin: 0 auto;
+	 }
+}
 
 
 }

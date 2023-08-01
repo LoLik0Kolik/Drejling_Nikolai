@@ -1,0 +1,11 @@
+.video_chef{
+    min-height: 720px;
+    &_wrapper{
+        height: 785px;
+        video{
+            width:100%;
+            height: 100%;
+        }
+    }
+
+}
