@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @keyframes MyAnimation1 {
+        from { background: url('anim.jpg') 0px 100px no-repeat; }
+        to { background: url('anim.jpg') -899px 100px no-repeat; }
+    }
+    @keyframes blocks {
+        0% {transform: translate( 0px,0px);}
+        20%{transform: translate( 100px,0);}
+        40%{transform: translate( 100px,50px) ;}
+        60%{ transform: translate( 0 , 50px);}
+        
+    }
+    @keyframes blocks2 {
+        from{background-color: rgb(217, 0, 255) ;}
+        to{background-color: aqua;}
+    }
+    
+    .sprite{
+        width: 97px;
+        height: 229px;
+        animation: MyAnimation1 1.5s steps(8) infinite;
+    }
+    .wrapper_block{
+        background-color: beige;
+        width: 500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .block1{
+        
+        background-color: blue;
+    border-radius: 100%;  
+    width: 100px;
+    height: 100px;
+    animation: blocks 5s linear infinite;
+  }
+  .block2{
+    background-color: rgb(24, 212, 33);
+    transition: 1s cubic-bezier(0.07, 0.74, 0.96, 0.52);
+    width: 100px;
+    height: 100px;
+
+  }
+  .block3{
+    background-color: rgb(217, 0, 255);
+    
+    width: 100px;
+    height: 100px;
+
+  }
+  .wrapper_block:hover .block2{
+transform: scale(0.8);
+  }
+  .wrapper_block:hover .block3{
+    animation:blocks2 steps(256) 3s;
+  }
+    
+</style>
+<body>
+    <div class="sprite">
+
+    </div>
+
+    <div class="wrapper_block">
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        
+    </div>
+</body>
+</html>
