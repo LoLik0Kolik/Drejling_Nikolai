@@ -93,6 +93,17 @@
 		margin: 0 auto;
 	 }
 }
-
-
+.footer{
+	display: flex;
+	flex-direction: column;
+	&__info{
+		position: static;
+		width: 100%;
+		transform: none;
+		order: 1;
+	}
+	iframe{
+		order: 2;
+	}
+}
 }

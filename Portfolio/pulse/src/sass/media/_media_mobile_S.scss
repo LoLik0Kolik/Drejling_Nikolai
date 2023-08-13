@@ -64,7 +64,18 @@
    }}
    .catalog-item {
     width: 235px;}
-    
+    .footer{
+        &__info{
+            a{
+                margin-bottom: 15px;
+                
+            }
+            .footer_social{
+                transform: translateX(-15px);
+            }
+
+        }
+    }
 
 
 
