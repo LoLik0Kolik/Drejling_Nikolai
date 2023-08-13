@@ -1,0 +1,62 @@
+.media{
+    padding: 140px 0 160px;
+    min-height: 740px;
+    background: linear-gradient(rgba(22,28,45,0.46 ),rgba(22,28,45,0.46)),
+     url(../img/first_media/background.jpg) center (center/cover) no-repeat;
+    
+   
+   &_wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+    h3{
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+        opacity: 0.8;
+    }
+    .media_slider{
+        
+        width: 872px;
+        height: 441px;
+        position: relative;
+        background: none;
+        background: url('../icons/slider_media/background.png') no-repeat;
+        top:0;
+        padding-top: 100px; 
+        button{
+            position: absolute;
+            width: 68px;
+            height: 68px;
+            border: none;
+            border-radius: 100%;
+            background-color: rgba(229, 232, 239, 0.30);
+            z-index: 1;
+        }
+        .slick-next{
+           bottom: 0;
+           right: 0;
+             
+        }
+        .slick-prev{
+            bottom: 0;
+            right: 74px;
+
+        }
+        &_icon{
+            color: #FFF;
+            font-size: 40px;
+
+            font-weight: 500;
+            line-height: 120%;
+        }
+    }
+
+   }
+.media_slider_wrapper{
+    height: 100%;
+    img.forbes_logo{
+        margin-top: -85px;
+    }
+}
+}
