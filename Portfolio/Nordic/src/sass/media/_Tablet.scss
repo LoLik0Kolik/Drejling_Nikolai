@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+    section.Welcome{
+        .dropdown{
+            margin-left: 28px;
+            button{
+                font-size: 15px;
+            }
+            
+        }
+        .wrapper_dropdown{
+            a.services{
+                font-size: 15px;
+            }
+        }
+        .welcome__header__wrapper h1{
+            font-size: 12px;
+        }
+        .welcome__header__wrapper__container a{
+            font-size: 12px;
+        }
+        .welcome__header__wrapper__container .email{
+            font-size: 12px;
+        }
+    
+        .Welcome_wrapper{
+            flex-direction: column;
+            
+            h2.Welcome_subtitle{
+                font-size: 35px;
+            }
+            .where_to_eat{
+                width: 240px;
+                font-size: 20px;
+            }
+            &_two_row{
+                &_descr{
+                    font-size: 17px;
+                }
+                button{
+                    width: 260px;
+                    padding: 21px 35px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

@@ -18,15 +18,13 @@
     &_wrapper{
         display: flex;
         justify-content: space-between;
-        .subtitle_wrapper{
-            width: 870px;
-        }
+        
         .where_to_eat{
             padding-top: 10px;
             background: url('../icons/header/Roze1.png') left top no-repeat,
                         url('../icons/header/Roze2.png') right top no-repeat
             ;
-            width: 243px;
+            width: 320px;
             text-align: center;
             font-weight: 500;
             color:#fff;
