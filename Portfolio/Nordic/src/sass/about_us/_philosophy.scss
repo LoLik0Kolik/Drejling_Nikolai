@@ -1,0 +1,31 @@
+.philosophy{
+    padding: 133px 0;
+    min-height: 593px;
+    background: linear-gradient(rgba(22,28,45,.85),rgba(22,28,45,.85)),url(../img/first_slider/bg.jpg) center center/cover no-repeat;
+    background-position: 0 -180px;
+    &_wrapper{
+        display: flex;
+        justify-content: space-between;
+        .subtitle_descr{
+            max-width: 870px;
+            .subtitle{
+                color:#fff;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 140%;
+            }
+            .descr{
+                color:#fff;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 170%;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    h2.title{
+        color:#fff;
+        max-width: 114px;
+    }
+}

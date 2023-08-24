@@ -1,4 +1,6 @@
 @import 'blocks/variables';
+@import 'blocks/application';
+@import 'blocks/title';
 @import 'first/header';
 @import 'first/about';
 @import 'first/carousel';
@@ -10,6 +12,18 @@
 @import 'first/media';
 @import 'first/calc';
 @import 'first/footer';
+@import 'servic/header';
+@import 'servic/main';
+@import 'exit_buffet/menu';
+@import 'exit_buffet/slider';
+@import 'exit_buffet/allin';
+@import 'exit_buffet/download_menu';
+@import 'exit_buffet/img';
+@import 'about_us/first_section';
+@import 'about_us/values';
+@import 'about_us/philosophy';
+@import 'about_us/command';
+@import 'about_us/form';
 *{
     font-family: 'Lab Grotesque',sans-serif;
 }
@@ -18,3 +32,12 @@
     padding: 0;
     width: 1180px;
 }
+i{
+    :hover{
+        color: black;
+        transition: 0.5s
+    }
+    
+}
+
+@import 'media/Laptop';

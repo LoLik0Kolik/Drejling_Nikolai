@@ -1,0 +1,59 @@
+section.form{
+    min-height: 868px;
+    padding: 120px 0;
+    border-bottom: 1px solid rgba(84, 94, 118, 0.20);
+    form label{
+        max-width: 780px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        input{
+            background-color: #F3F5F8;
+            border: none;
+            border-radius: 12px ;
+            margin-top: 24px;
+            height: 80px;
+            padding: 30px 0 30px 32px;
+            color: $main-color;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 100%;
+        }
+        .btn_wrapper{
+            margin-top: 44px;
+            display: flex;
+            justify-content: space-between;
+            p{
+                max-width: 422px;
+                color: $main-color;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 190%; /* 30.4px */
+                opacity: 0.5;
+               
+                a{
+                    color: $main-color;
+                }
+            }
+        }
+        button.application {
+            max-width: 280px;
+            
+        }
+    }
+    .form_wrapper{
+        margin-right: 100px;
+        p.descr{
+            color: $main-color;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 170%;
+            margin: 40px 0 16px; /* 23.8px */
+        }
+    }
+    .form_wrapper_main{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}

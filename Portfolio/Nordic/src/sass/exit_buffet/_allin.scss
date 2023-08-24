@@ -1,0 +1,53 @@
+section.allin{
+    margin-top: 120px;
+    min-height: 602px;
+    .allin_wrapper{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        h3{
+            max-width: 555px;
+        }
+        p{
+            max-width: 580px;
+        }
+    }
+   
+    .wrapper_icon{
+        margin-top: 100px;
+        display:flex;
+        justify-content: space-between;
+        
+        &_item{
+            max-width: 340px;
+            .circle{
+                text-align: center;
+                padding: 27px;
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: $main-color;
+            }
+            .title h3{
+                margin-top: 52px;
+                color: $main-color;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 130%;
+            }
+            .icon_descr{
+                margin-top: 28px;
+                color: $main-color;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 170%;
+            }
+        }
+        
+    }
+    img.fullscreen{
+        margin-top: 120px;
+        width: 100%;
+
+    }   
+}

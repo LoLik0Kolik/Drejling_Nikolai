@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -34,7 +35,7 @@
                                 Вид кейтеринга
                             </button>
                             <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item active" href="#">Фуршет</a></li>
+                                <li><a class="dropdown-item active" href="pages/exit_buffet.html">Фуршет</a></li>
                                 <li><a class="dropdown-item" href="#">Fine Dining</a></li>
                                 <li><a class="dropdown-item" href="#">Тематические станции</a></li>
                                 <li><a class="dropdown-item" href="#">Grill Yakitori</a></li>
@@ -69,14 +70,14 @@
                                 <li><a class="dropdown-item" href="#">Загородные площадки</a></li>
                             </ul>
                         </div>
-                        <a class="services" href="#">Услуги</a>
+                        <a class="services" href="pages/services.html">Услуги</a>
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 О компании
                             </button>
                             <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">О нас</a></li>
+                                <li><a class="dropdown-item" href="pages/about_us.html">О нас</a></li>
                                 <li><a class="dropdown-item" href="#">Портфолио</a></li>
                                 <li><a class="dropdown-item" href="#">Контакты</a></li>
 
@@ -99,7 +100,7 @@
             <div class="Welcome_wrapper_two_row">
                 <p class="Welcome_wrapper_two_row_descr">От грандиозных свадеб до камерных Дней Рождений - мы обеспечим
                     первоклассное обслуживание и неповторимую кухню от ресторана Nordic.</p>
-                <button>Оставить заявку</button>
+                <button class="scale">Оставить заявку</button>
             </div>
         </div>
     </section>
@@ -123,7 +124,7 @@
 
 
                     </div>
-                    <button class="about_button">Подробнее о компании</button>
+                    <button class="about_button scale">Подробнее о компании</button>
                 </div>
 
             </div>
@@ -168,208 +169,296 @@
         </div>
     </section>
     <section class="cook">
-    <div class="container">
-        <div class="slider">
-            <div>
-                <div class="slider_wrapper">
-                    <div class="slider_wrapper_first_block">
-                        <h2 class="slider_title">Напитки</h2>
-                        <p class="slider_subtitle">от 4000 руб/чел</p>
-                        <p class="slider_descr">Организация выездного фуршета. Мы поможем вам организовать выездной
-                            фуршет в любом удобном для вас месте. Оцените по достоинству мастерство наших поваров.
-                            Продемонстрируйте гостям свой хороший вкус и утонченные манеры.</p>
+        <div class="container">
+            <div class="slider">
+                <div>
+                    <div class="slider_wrapper">
+                        <div class="slider_wrapper_first_block">
+                            <h2 class="slider_title">Напитки</h2>
+                            <p class="slider_subtitle">от 4000 руб/чел</p>
+                            <p class="slider_descr">Организация выездного фуршета. Мы поможем вам организовать выездной
+                                фуршет в любом удобном для вас месте. Оцените по достоинству мастерство наших поваров.
+                                Продемонстрируйте гостям свой хороший вкус и утонченные манеры.</p>
+                        </div>
+                        <div class="slider_img">
+                            <img src="img/first_slider/first.jpg" alt="Coctails">
+                        </div>
                     </div>
-                    <div class="slider_img">
-                        <img src="img/first_slider/first.jpg" alt="Coctails">
+                </div>
+
+
+
+
+                <div>
+
+                    <div class="slider_wrapper">
+                        <div class="slider_wrapper_first_block">
+                            <h2 class="slider_title">Изысканные блюда</h2>
+                            <p class="slider_subtitle">от 6000 руб/чел</p>
+                            <p class="slider_descr">Огромный выбор еды из национальных кухонь мира: российская,
+                                азиатская, американская классика. Вы не останетесь недовольным!</p>
+                        </div>
+                        <div class="slider_img">
+                            <img src="img/first_slider/two.jpg" alt="Coctails">
+                        </div>
                     </div>
+
+                </div>
+
+
+
+                <div>
+
+                    <div class="slider_wrapper">
+                        <div class="slider_wrapper_first_block">
+                            <h2 class="slider_title">Талантливые повара</h2>
+                            <p class="slider_descr">Наши повара не только обладают профессиональными навыками настоящих
+                                шефов, мы выбираем только действительных талантов со всей страны.</p>
+                        </div>
+                        <div class="slider_img">
+                            <img src="img/first_slider/three.jpg" alt="Coctails">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cook_wrapper">
+                <div class="cook_wrapper_img">
+                    <img src="img/first_cook/image 106.jpg" alt="shef">
+                </div>
+                <div class="cook_wrapper_descr">
+                    <p>Мы почувствовали, что должны снова бросить себе вызов: ресторан Nordic завоевал признание многих
+                        гостей, а значит настало время удивлять их чаще, выезжая с кейтерингом на разные мероприятия,
+                        наша кухня - это настоящая феерия вкусов, праздник для всех любителей гастрономических
+                        приключений</p>
+                    <h3 class="cook_wrapper_descr_subtitle">Шеф-повар ресторана</h3>
+                    <h2 class="cook_wrapper_descr_title">Игорь Васильев</h2>
                 </div>
             </div>
 
 
+        </div>
+    </section>
+    <section class="video_chef">
 
+        <div class="video_chef_wrapper">
+            <video loop="loop" autoplay="autoplay">
+                <source src="img/fone.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </section>
 
-            <div>
-
-                <div class="slider_wrapper">
-                    <div class="slider_wrapper_first_block">
-                        <h2 class="slider_title">Изысканные блюда</h2>
-                        <p class="slider_subtitle">от 6000 руб/чел</p>
-                        <p class="slider_descr">Огромный выбор еды из национальных кухонь мира: российская, азиатская, американская классика. Вы не останетесь недовольным!</p>
+    <section class="why_are_we">
+        <div class="container">
+            <div class="why_are_we_wrapper">
+                <h3 class="why_are_we_wrapper_title">Почему мы</h3>
+                <div class="why_are_we_wrapper_descr">
+                    <h2>Мы считаем, что каждое событие особенное и заслуживает стильного празднования.</h2>
+                    <div class="item_wrapper">
+                        <div class="item">
+                            <div class="item_img"><i class="fa-solid fa-user-group fa-lg"></i></div>
+                            <div class="item_descr">
+                                <p>Nordic имеет команду опытных профессионалов в сфере общественного питания, которые
+                                    занимаются поставкой высококачественной еды и исключительного обслуживания.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_img"><i class="fa-solid fa-book fa-xl"></i></div>
+                            <div class="item_descr">
+                                <p>Nordic предлагает множество вариантов меню, которые можно настроить в соответствии с
+                                    вашими конкретными потребностями и предпочтениями.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_img"><i class="fa-solid fa-list-check fa-xl"></i></div>
+                            <div class="item_descr">
+                                <p>Nordic помогает снять стресс при планировании мероприятий, предлагая комплексное
+                                    решение для всех ваших потребностей в сфере кейтеринга, включая планирование
+                                    мероприятий и выбор места проведения.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_img"><i class="fa-solid fa-utensils fa-xl"></i></div>
+                            <div class="item_descr">
+                                <p>Nordic использует только самые свежие ингредиенты и готовит всю еду на месте, чтобы
+                                    обеспечить максимальный вкус и качество.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="slider_img">
-                        <img src="img/first_slider/two.jpg" alt="Coctails">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="clients">
+        <div class="container">
+            <div class="clients_main_wrapper">
+                <h3 class="clients_subtitle">Клиенты</h3>
+                <div class="clients_wrapper">
+                    <h2 class="clients_wrapper_title">
+                        Наши клиенты - это большие и маленькие компании, частные мероприятия дома и крупные для
+                        селебрити.
+                    </h2>
+                    <div class="clients_wrapper_img">
+                        <img src="img/first_clients/mercedes.jpg" alt="Mercedes logo">
+                        <img src="img/first_clients/range_rover.jpg" alt="Range Rover logo">
+                        <img src="img/first_clients/polison.png" alt="Polison logo">
+                        <img src="img/first_clients/gazprome.jpg" alt="Gazprome logo">
                     </div>
+                    <p>В этом разделе мы представляем наши лучшие работы и успешные мероприятия, которые мы организовали
+                        для наших клиентов. Здесь вы можете увидеть фотографии и видео отчеты о наших последних
+                        мероприятиях, таких как свадьбы, корпоративные вечеринки, детские дни рождения и т.д. Это дает
+                        вам возможность увидеть нашу работу в действии и убедиться в качестве наших услуг.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="slider_news">
+            <div><img class="slider_news_img_first" src="img/first_slider_news/first.jpg" alt="news small Italy">
+                <div class="slider_news_button">Июль 2021 г.</div>
+                <h2 class="slider_news_title">Юбилей в стиле маленькой Италии</h2>
+                <p class="slider_news_subtitle">Банкет на 40 человек</p>
+            </div>
+            <div><img class="slider_news_img_two" src="img/first_slider_news/two.jpg" alt="news saloon">
+                <div class="slider_news_button">Февраль 2022 г.</div>
+                <h2 class="slider_news_title">Юбилей Салона Ирины Андерсона</h2>
+                <p class="slider_news_subtitle">Фуршет на 30 человек</p>
+            </div>
+            <div><img class="slider_news_img_three" src="img/first_slider_news/three.png" alt=" style Marii ">
+                <div class="slider_news_button">Январь 2022 г.</div>
+                <h2 class="slider_news_title">Юбилей в стиле Марии Антуанетты</h2>
+                <p class="slider_news_subtitle">Гастрономический ужин / Candy Bar</p>
+            </div>
+            <div><img class="slider_news_img_four" src="img/first_slider_news/four.png" alt="coffee-brake">
+                <div class="slider_news_button">20 января 2023 г.</div>
+                <h2 class="slider_news_title">Кофе-брейки для международного форума</h2>
+                <p class="slider_news_subtitle">Фуршет на 40 человек</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="media">
+        <div class="container">
+            <div class="media_wrapper">
+                <h3>Сми о нас</h3>
+                <div class="media_slider_wrapper">
+                    <div class="media_slider">
+                        <div class="media_slider_icon">
+                            <div class="media_slider_icon_descr">Ресторан Nordic подготовил дегустационный сет, в
+                                котором вкус новой северной кухни обогащен нюансами гастрономических традиций Азии,
+                                Африки и Америки....</div>
+                        </div>
+                        <div class="media_slider_icon">
+                            <div class="media_slider_icon_descr">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Nostrum perspiciatis esse ut. Ex maxime animi molestias, voluptas illo deserunt
+                                aliquid facere cum quisquam.</div>
+                        </div>
+                        <div class="media_slider_icon">
+                            <div class="media_slider_icon_descr">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Dicta commodi laboriosam error autem labore quisquam pariatur maiores dolores
+                                incidunt inventore recusandae.</div>
+                        </div>
+
+                    </div>
+                    <img class="forbes_logo" src="icons/slider_media/logo.png" alt="logo Forbes">
                 </div>
 
+
             </div>
 
+    </section>
+    <section class="calc">
+        <div class="container">
 
+            <h2 class="calc_title">Закажите мероприятие</h2>
+            <div class="calc_wrapper">
+                <div class="calc_wrapper_icon"><h3 class="calc_subtitle">Выберите формат мероприятия: </h3>
 
-            <div>
-
-                <div class="slider_wrapper">
-                    <div class="slider_wrapper_first_block">
-                        <h2 class="slider_title">Талантливые повара</h2>
-                        <p class="slider_descr">Наши повара не только обладают профессиональными навыками настоящих
-                            шефов, мы выбираем только действительных талантов со всей страны.</p>
-                    </div>
-                    <div class="slider_img">
-                        <img src="img/first_slider/three.jpg" alt="Coctails">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="cook_wrapper">
-            <div class="cook_wrapper_img">
-                <img src="img/first_cook/image 106.jpg" alt="shef">
-            </div>
-            <div class="cook_wrapper_descr">
-                <p>Мы почувствовали, что должны снова бросить себе вызов: ресторан Nordic завоевал признание многих гостей, а значит настало время удивлять их чаще, выезжая с кейтерингом на разные мероприятия, наша кухня - это настоящая феерия вкусов, праздник для всех любителей гастрономических приключений</p>
-                <h3 class="cook_wrapper_descr_subtitle">Шеф-повар ресторана</h3>
-                <h2 class="cook_wrapper_descr_title">Игорь Васильев</h2>
-            </div>
-        </div>
-       
-
-    </div>
-</section>
-<section  class="video_chef">
-
-    <div class="video_chef_wrapper">
-    <video loop="loop" autoplay="autoplay">
-        <source  src="img/fone.mp4" type="video/mp4"/>
-    </video>
-</div>
-</section>
-
-<section class="why_are_we">
-    <div class="container">
-        <div class="why_are_we_wrapper">
-            <h3 class="why_are_we_wrapper_title">Почему мы</h3>
-            <div class="why_are_we_wrapper_descr"><h2>Мы считаем, что каждое событие особенное и заслуживает стильного празднования.</h2>
-            <div class="item_wrapper">
-                <div class="item">
-                    <div class="item_img"><i class="fa-solid fa-user-group fa-lg"></i></div>
-                    <div class="item_descr">
-                        <p>Nordic имеет команду опытных профессионалов в сфере общественного питания, которые занимаются поставкой высококачественной еды и исключительного обслуживания.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="item_img"><i class="fa-solid fa-book fa-xl"></i></div>
-                    <div class="item_descr">
-                        <p>Nordic предлагает множество вариантов меню, которые можно настроить в соответствии с вашими конкретными потребностями и предпочтениями.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="item_img"><i class="fa-solid fa-list-check fa-xl"></i></div>
-                    <div class="item_descr">
-                        <p>Nordic помогает снять стресс при планировании мероприятий, предлагая комплексное решение для всех ваших потребностей в сфере кейтеринга, включая планирование мероприятий и выбор места проведения.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="item_img"><i class="fa-solid fa-utensils fa-xl"></i></div>
-                    <div class="item_descr">
-                        <p>Nordic использует только самые свежие ингредиенты и готовит всю еду на месте, чтобы обеспечить максимальный вкус и качество.</p>
-                    </div>
-                </div> 
-            </div>   
-            
-            </div>
-        </div>
-    </div>
-</section>
-<section class="clients">
-    <div class="container">
-       <div class="clients_main_wrapper">
-        <h3 class="clients_subtitle">Клиенты</h3>
-        <div class="clients_wrapper">
-            <h2 class="clients_wrapper_title">
-                Наши клиенты - это большие и маленькие компании, частные мероприятия дома и крупные для селебрити.
-            </h2>
-            <div class="clients_wrapper_img">
-                <img src="img/first_clients/mercedes.jpg" alt="Mercedes logo">
-                <img src="img/first_clients/range_rover.jpg" alt="Range Rover logo">
-                <img src="img/first_clients/polison.png" alt="Polison logo">
-                <img src="img/first_clients/gazprome.jpg" alt="Gazprome logo">
-            </div>
-            <p>В этом разделе мы представляем наши лучшие работы и успешные мероприятия, которые мы организовали для наших клиентов. Здесь вы можете увидеть фотографии и видео отчеты о наших последних мероприятиях, таких как свадьбы, корпоративные вечеринки, детские дни рождения и т.д. Это дает вам возможность увидеть нашу работу в действии и убедиться в качестве наших услуг.</p>
-        </div>
-       </div>
-
-    </div>
-    <div class="slider_news">
-        <div><img class="slider_news_img_first" src="img/first_slider_news/first.jpg" alt="news small Italy">
-            <div class="slider_news_button">Июль 2021 г.</div>
-            <h2 class="slider_news_title">Юбилей в стиле маленькой Италии</h2>
-            <p class="slider_news_subtitle">Банкет на 40 человек</p>
-        </div>
-        <div><img class="slider_news_img_two" src="img/first_slider_news/two.jpg" alt="news saloon">
-            <div class="slider_news_button">Февраль 2022 г.</div>
-            <h2 class="slider_news_title">Юбилей Салона Ирины Андерсона</h2>
-            <p class="slider_news_subtitle">Фуршет на 30 человек</p>
-        </div>
-        <div><img class="slider_news_img_three" src="img/first_slider_news/three.png" alt=" style Marii ">
-            <div class="slider_news_button">Январь 2022 г.</div>
-            <h2 class="slider_news_title">Юбилей в стиле Марии Антуанетты</h2>
-            <p class="slider_news_subtitle">Гастрономический ужин / Candy Bar</p>
-        </div>
-        <div><img class="slider_news_img_four" src="img/first_slider_news/four.png" alt="coffee-brake">
-            <div class="slider_news_button">20 января 2023 г.</div>
-            <h2 class="slider_news_title">Кофе-брейки для международного форума</h2>
-            <p class="slider_news_subtitle">Фуршет на 40 человек</p>
-        </div>
-      </div>
-</section>
-
-<section class="media">
-    <div class="container">
-        <div class="media_wrapper">
-            <h3>Сми о нас</h3>
-            <div class="media_slider_wrapper">
-                <div class="media_slider">
-                    <div class="media_slider_icon"><div class="media_slider_icon_descr">Ресторан Nordic подготовил дегустационный сет, в котором вкус новой северной кухни обогащен нюансами гастрономических традиций Азии, Африки и Америки....</div></div>
-                    <div class="media_slider_icon"><div class="media_slider_icon_descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum perspiciatis esse ut. Ex maxime animi molestias, voluptas illo deserunt aliquid facere cum quisquam.</div></div>
-                    <div class="media_slider_icon"><div class="media_slider_icon_descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta commodi laboriosam error autem labore quisquam pariatur maiores dolores incidunt inventore recusandae.</div></div>
-                    
-                </div>
-                <img class="forbes_logo" src="icons/slider_media/logo.png" alt="logo Forbes">
-            </div>
-            
-
-    </div>
+                    <div class="wrapper_button">
+                        <button class="button_choice">Фуршет</button>
+                        <button class="button_choice">Гастрономический ужин</button>
+                        <button class="button_choice">Банкет</button>
     
-</section>
-<section class="calc">
-    <div class="container">
+                    </div>
+    
+    
+                    <form>
+                        <div class="calc-section">
 
-    </div>
-</section>
-<footer class="footer">
-    <div class="container">
-        <div class="footer_wrapper">
-            <div class="footer_wrapper_icon">
-                <a href="#">© 2023 Нордик кейтеринг</a>
-                <a href="tel:+79211234567">+7 911 234 45 67</a>
-                <a href="#">restaurant@nordic-spb.ru</a>
-            </div>
-            <div class="footer_wrapper_icon">
-                <a href="#"><i class="fa-brands fa-vk fa-xl" style="color: #2c323a;"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook-f fa-lg" style="color: #2c323a;"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #2c323a;"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #2c323a;"></i></a>
-            </div>
+                            <label class="range_label">
+                                <span class="guests">Количество гостей:</span>
+                                <div class="quantity">
+                                    <input type="number" min="10" max="100" value="50" id="square-input"
+                                        class="title__inline input-short" />
+                                    <span class="people">человек</span>
+                                </div>
+                            </label>
 
+
+                            <div class="info">
+                                <div class="to">От 10 человек</div>
+                                <div class="do">До 100 человек</div>
+                            </div>
+
+
+                            <input type="range" id="square-range" class="range-input" min="10" max="100" value="50"
+                                step="1">
+    
+                            <label class="date" for="">
+                                <span class="date">Дата мероприятия:</span><input type="date"></label>
+    
+    
+    
+                            <label class="option" for="">
+                                <span class="add">Дополнительные услуги:</span>
+                                <select name="add" id="">
+                                    <option value="1">Тематические станции, Декор, +2</option>
+                                    <option value="2">Без дополнительных услуг</option>
+                                </select>
+                            </label>
+    
+                            <textarea placeholder="Напишите пожелания по меню" name="" id="" cols="30" rows="1"></textarea>
+                        </div>
+                    </div>
+                <div class="calc_wrapper_icon_cost"><h4 class="cost_title">Примерная стомость</h4>
+                <h3>150 000 ₽</h3>
+                <h5>5 000 ₽/чел</h5>
+                <div class="wrapper_format">
+                    <div class="format"><span>Формат:</span> Фуршет</div>
+                    <div class="guests"><span>Количество гостей:</span>30</div>
+                    <div class="date"><span>Дата:</span>20.04.2023</div>
+                </div>
+                
+            </div>
+            </div>
+            <div class="submit_wrapper">
+                
+                <input type="submit" class="scale">
+                <div class="submit_wrapper_descr">
+                    <p>Нажимая кнопку вы соглашаетесь с <a href="#">условиями обработки персональных данных</a>и <a href="a">политикой конфиденциальности</a> </p>
+                </div>
+            </div></form>
         </div>
-    </div>
-</footer>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="footer_wrapper_icon">
+                    <a href="#">© 2023 Нордик кейтеринг</a>
+                    <a href="tel:+79211234567">+7 911 234 45 67</a>
+                    <a href="#">restaurant@nordic-spb.ru</a>
+                </div>
+                <div class="footer_wrapper_icon">
+                    <a href="#"><i class="fa-brands fa-vk fa-xl" style="color: #2c323a;"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f fa-lg" style="color: #2c323a;"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #2c323a;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #2c323a;"></i></a>
+                </div>
 
-
-
-
-
-
+            </div>
+        </div>
+    </footer>
     <script src="js/bootstrap.bundle.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

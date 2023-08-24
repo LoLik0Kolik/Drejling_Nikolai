@@ -1,4 +1,242 @@
 .calc{
     min-height: 1130px;
     background-color: #F3F5F8;
+    padding: 140px 0 160px;
+    &_title{
+        color: $main-color;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+    &_subtitle{
+        margin-top: 44px;
+        color: $main-color;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 130%;
+    }
+    form{
+        width: 780px;
+    }
+    .button_choice{
+        height: 48px;
+        padding: 0 30px;
+        border: none;
+        border-radius: 25px;
+        background: rgba(84, 94, 118, 0.12);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        color:$main-color;
+        margin-right: 16px;
+    }
+    .button_choice:hover {
+        background: rgba(34, 39, 51, 1);
+        color:#fff;
+    }
+    .button_choice:active{
+        background: rgba(34, 39, 51, 1);
+        color:#fff;
+    }
+    .button_choice:focus{
+        background: rgba(34, 39, 51, 1);
+        color:#fff;
+    }
+    .wrapper_button{
+        margin-top: 20px;
+    }
+    .range_label{
+        margin-top: 32px;
+        width: 100%;
+        height: 80px;
+        padding: 30px 32px;
+        border-radius: 15px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        span.guests{
+            color: $main-color;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 100%;
+        }
+        input{
+            border:none;
+            text-align: right;
+            color: $main-color;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+        }
+        span.people{
+            color: $main-color;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+        }
+        
+
+        
+    }
+    .info{
+        color: $main-color;
+        opacity: 0.4;
+        display: flex;
+        justify-content: space-between;
+    }
+    .range-input{
+        width: 100%;
+        accent-color: #545E76;
+    }
+    label.date{
+        margin-top: 24px;
+        width: 100%;
+        height: 80px;
+        text-align: right;
+        padding: 30px 32px;
+        border-radius: 15px;
+        background-color: #fff;
+        border:none;
+        display: flex;
+        justify-content: space-between;
+        span.date{
+            color: $main-color;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 100%;
+        }
+        input[type="date"]{
+            border: none;
+            color: $main-color;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 100%; 
+        }
+
+    }
+    .option{
+        margin-top: 24px;
+        width: 100%;
+        height: 80px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 32px;
+        border-radius: 15px;
+        span.add{
+            color:$main-color;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 100%;
+        }
+        select{
+            height: 22px;
+            color: $main-color;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            border: none;
+        }
+
+    }
+    .calc-section{
+        textarea{
+            width: 100%;
+            border:none;
+            border-radius: 10px; 
+            margin-top: 24px;
+            padding: 30px 0 30px 32px;
+            color: $main-color;
+            font-size: 20px;
+            font-weight: 300;
+
+        }
+    }
+    .calc_wrapper{
+        display: flex;
+        justify-content: space-between;
+        .cost_title{
+            color: $main-color;
+            font-size: 18px;
+            font-weight: 400;
+            opacity: 0.4;
+
+        }
+        &_icon{
+            &_cost{
+                width: 280px;
+                h3{
+                    color: $main-color;
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 120%;
+                }
+                h5{
+                    color: $main-color;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 100%;
+                }
+                .wrapper_format{
+                    margin-top: 28px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    div{
+                        padding: 16px 0;
+                        display: flex;
+                        justify-content: space-between;
+                        color: $main-color;
+                        font-size: 18px;
+                        font-weight: 400;
+                        border-bottom: 1px solid rgba(84, 94, 118, 0.12);
+                        span{
+                            color: $main-color;
+                            font-size: 18px;
+                            font-weight: 400;
+                            opacity: 0.4;
+                        }
+                    }
+                }
+                
+            }
+            
+            
+        }
+
+    }
+    .submit_wrapper{
+        margin-top: 44px; 
+        display: flex;
+        justify-content: flex-start;
+        input{
+            width: 280px;
+            height: 60px;
+            background-color: #222733;
+            color: #fff; 
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            border: none;
+        }
+        p{
+            margin-left: 44px;
+            color: $main-color;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 190%;
+            opacity: 0.5;
+            width: 422px;
+            a{
+                color: $main-color;
+            }
+        }
+    }
+    
 }

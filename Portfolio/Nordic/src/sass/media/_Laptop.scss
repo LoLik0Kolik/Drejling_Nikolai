@@ -1,0 +1,22 @@
+@media (max-width:1024px) {
+    h2.Welcome_subtitle{   
+            font-size: 53px;
+    }
+    section.about{
+        .about_block{
+            width: 80%;
+            &_wrapper_one{
+                width: 350px;
+            }
+            &_wrapper_two{
+                width: 350px;
+            }
+        }
+        .about_block_title{
+            font-size: 30px;
+        }
+        .about_achievements_item_number{
+            font-size: 43px;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+section.command{
+    min-height: 1860px;
+    padding: 160px 0 ;
+    h3.subtitle{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 140%;
+        margin-top: 32px;
+    }
+    .wrapper_command{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        &_item{
+            max-width: 345px;
+            h4.command_title_item{
+                color: $main-color;
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 130%; 
+            }
+            p.command_descr_item{
+                color: $main-color;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 160%;
+                opacity: 0.8;
+            }
+        }
+    }
+    img.main_command_{
+        
+        width: 100%;
+    }
+}

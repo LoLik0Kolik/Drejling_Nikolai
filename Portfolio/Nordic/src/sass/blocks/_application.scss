@@ -1,0 +1,19 @@
+/* button appplication */
+
+        .application{
+        background-color: ($main-color);
+        height: 60px;
+        padding: 20px 48px;
+        color: #fff; 
+        border: none;
+        
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 100%;
+        box-shadow: 1px; /* 18px */
+        
+        }
+        .scale:hover{
+            scale: 1.05;
+            transition: 0.5s;
+        }

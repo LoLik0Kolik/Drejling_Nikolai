@@ -1,0 +1,60 @@
+.values{
+    min-height: 990px;
+    padding: 80px 0;
+    &_wrapper{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        &_item{
+            
+            h3{
+                font-size: 40px;
+            }
+            .item_descr{
+                color: $main-color;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 170%;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                margin-top: 18px;
+                margin-bottom: 40px; 
+                margin-top: 60px;
+            }
+            
+            h4.values_item_descr{
+            color: $main-color;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 130%; 
+            margin-bottom: 0;
+            margin-left: 24px;
+
+            }
+            .icon{
+                display: inline-block;
+                width: 48px;
+                height: 48px;
+                background-color: rgba(84, 94, 118,0.1);
+                border-radius: 50%;
+                text-align: center;
+                padding: 12px 0 ;
+            }
+            
+        }
+        &_item:first-of-type{
+            max-width: 576px;
+        }
+        &_item:last-of-type{
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    }
+    .wrapper_icon{
+        display: flex;
+        align-items: center;
+    }
+}
