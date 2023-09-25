@@ -1,0 +1,29 @@
+p{
+    color:blue; 
+}
+span{
+    font-size: 16px;
+    color: green;
+}
+p.google{
+    color:black;
+    font-family: 'Martian Mono', monospace;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 300%;
+}
+p.google_two{
+    font-family: 'Work Sans', sans-serif;
+    color: black; 
+    font-style: italic;
+    font-weight: 500;
+    line-height: 200%;
+    font-size: 32px;
+
+}
+span.Museo{
+    font-family: 'Museo', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 50px;
+}
